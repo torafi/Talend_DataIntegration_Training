@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_jPa18OP5EeeBu4TdVCWgDg" name="iDeal_CamelCase" dataPackage="_jPbdEuP5EeeBu4TdVCWgDg" JSONFilePath="D:/Users/rshaik4/Desktop/SampleFiles/iDeal/iDeal_2.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_jPa18eP5EeeBu4TdVCWgDg" LimitBoucle="50" AbsoluteXPathQuery="$.Ideal">
+      <schemaTargets xmi:id="_jPa18uP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Division" TagName="Division"/>
+      <schemaTargets xmi:id="_jPa18-P5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Sbe" TagName="Sbe"/>
+      <schemaTargets xmi:id="_jPa19OP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Owner" TagName="Owner"/>
+      <schemaTargets xmi:id="_jPa19eP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Department" TagName="Department"/>
+      <schemaTargets xmi:id="_jPa19uP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Project_Name" TagName="Project_Name"/>
+      <schemaTargets xmi:id="_jPa19-P5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Access" TagName="Access"/>
+      <schemaTargets xmi:id="_jPa1-OP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Organization" TagName="Organization"/>
+      <schemaTargets xmi:id="_jPa1-eP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Code_Name" TagName="Code_Name"/>
+      <schemaTargets xmi:id="_jPa1-uP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Source" TagName="Source"/>
+      <schemaTargets xmi:id="_jPa1--P5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Project_Priority" TagName="Project_Priority"/>
+      <schemaTargets xmi:id="_jPa1_OP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Deal_Type" TagName="Deal_Type"/>
+      <schemaTargets xmi:id="_jPa1_eP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Sponsor" TagName="Sponsor"/>
+      <schemaTargets xmi:id="_jPa1_uP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Regions" TagName="Regions"/>
+      <schemaTargets xmi:id="_jPa1_-P5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Countries" TagName="Countries"/>
+      <schemaTargets xmi:id="_jPa2AOP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Attributes.Project_Description" TagName="Project_Description"/>
+      <schemaTargets xmi:id="_jPa2AeP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Last_Completed_Status" TagName="Last_Completed_Status"/>
+      <schemaTargets xmi:id="_jPa2AuP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Cda_Expiry_Date" TagName="Cda_Expiry_Date"/>
+      <schemaTargets xmi:id="_jPa2A-P5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Date_Of_Cda_Signature" TagName="Date_Of_Cda_Signature"/>
+      <schemaTargets xmi:id="_jPa2BOP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Project_Health_After_Cda" TagName="Project_Health_After_Cda"/>
+      <schemaTargets xmi:id="_jPa2BeP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Date_Of_Mta_Signature" TagName="Date_Of_Mta_Signature"/>
+      <schemaTargets xmi:id="_jPa2BuP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Project_Health_After_Mta" TagName="Project_Health_After_Mta"/>
+      <schemaTargets xmi:id="_jPa2B-P5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Date_Of_1St_Mandate_Nbo" TagName="Date_Of_1St_Mandate_Nbo"/>
+      <schemaTargets xmi:id="_jPa2COP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Project_Health_After_1St_M" TagName="Project_Health_After_1St_M"/>
+      <schemaTargets xmi:id="_jPa2CeP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Date_Of_End_Of_Due_Diligence" TagName="Date_Of_End_Of_Due_Diligence"/>
+      <schemaTargets xmi:id="_jPa2CuP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Project_Health_After_Dd" TagName="Project_Health_After_Dd"/>
+      <schemaTargets xmi:id="_jPa2C-P5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Date_Of_2Nd_Mandate_Bo" TagName="Date_Of_2Nd_Mandate_Bo"/>
+      <schemaTargets xmi:id="_jPa2DOP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Project_Health_After_2Nd_M" TagName="Project_Health_After_2Nd_M"/>
+      <schemaTargets xmi:id="_jPa2DeP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Bd_N_L_Status.Bd_N_L_Status" TagName="Bd_N_L_Status"/>
+      <schemaTargets xmi:id="_jPa2DuP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Bd_N_L_Status.Bd_N_L_Status_Change_Date" TagName="Bd_N_L_Status_Change_Date"/>
+      <schemaTargets xmi:id="_jPa2D-P5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Bd_N_L_Status.Committees_Approved" TagName="Committees_Approved"/>
+      <schemaTargets xmi:id="_jPa2EOP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Bd_N_L_Status.Project_Status_Description" TagName="Project_Status_Description"/>
+      <schemaTargets xmi:id="_jPa2EeP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Bd_N_L_Status.Created_By" TagName="Created_By"/>
+      <schemaTargets xmi:id="_jPa2EuP5EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Project_Status.Bd_N_L_Status.Last_Modified_By" TagName="Last_Modified_By"/>
+      <schemaTargets xmi:id="_Y-UnUOP-EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Documents.Document_1.Document_1" TagName="Document_1"/>
+      <schemaTargets xmi:id="_WopwcOP-EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Documents.Document_1.Covered_By_Cda" TagName="Covered_By_Cda3"/>
+      <schemaTargets xmi:id="_bpo-EOP-EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Documents.Document_2.Document_2" TagName="Document_2"/>
+      <schemaTargets xmi:id="_bpo-EeP-EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Documents.Document_2.Covered_By_Cda" TagName="Covered_By_Cda4"/>
+      <schemaTargets xmi:id="_jvuUYOP-EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Documents.Document_3.Document_3" TagName="Document_3"/>
+      <schemaTargets xmi:id="_jvuUYeP-EeeBu4TdVCWgDg" RelativeXPathQuery="In-Licensing_Acquisition.Documents.Document_3.Covered_By_Cda" TagName="Covered_By_Cda"/>
+      <schemaTargets xmi:id="_jPa2FuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Asset.Asset_Name" TagName="Asset_Name"/>
+      <schemaTargets xmi:id="_jPa2F-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Asset.Access" TagName="Access1"/>
+      <schemaTargets xmi:id="_jPa2GOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Asset.Synonyms" TagName="Synonyms"/>
+      <schemaTargets xmi:id="_jPa2GeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Owner.Owner" TagName="Owner1"/>
+      <schemaTargets xmi:id="_jPa2GuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Owner.Organization" TagName="Organization1"/>
+      <schemaTargets xmi:id="_jPa2G-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Division.Division" TagName="Division1"/>
+      <schemaTargets xmi:id="_jPa2HOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Division.Created_By" TagName="Created_By1"/>
+      <schemaTargets xmi:id="_jPa2HeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Division.Last_Modified_By" TagName="Last_Modified_By1"/>
+      <schemaTargets xmi:id="_jPa2HuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Further_Asset_Details.Development_Phase" TagName="Development_Phase"/>
+      <schemaTargets xmi:id="_jPa2H-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Further_Asset_Details.Classification" TagName="Classification"/>
+      <schemaTargets xmi:id="_jPa2IOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Further_Asset_Details.Gdd_Area" TagName="Gdd_Area"/>
+      <schemaTargets xmi:id="_jPa2IeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Further_Asset_Details.Therapeutic_Area" TagName="Therapeutic_Area"/>
+      <schemaTargets xmi:id="_jPa2IuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Further_Asset_Details.Technologies" TagName="Technologies"/>
+      <schemaTargets xmi:id="_jPa2I-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Further_Asset_Details.Clinical_Indication" TagName="Clinical_Indication"/>
+      <schemaTargets xmi:id="_jPa2JOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Further_Asset_Details.Mechanism_Of_Action" TagName="Mechanism_Of_Action"/>
+      <schemaTargets xmi:id="_jPa2JeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Assets.Further_Asset_Details.Scientific_Summary" TagName="Scientific_Summary"/>
+      <schemaTargets xmi:id="_jPa2JuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Organization_Name" TagName="Organization_Name"/>
+      <schemaTargets xmi:id="_jPa2J-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Synonyms" TagName="Synonyms1"/>
+      <schemaTargets xmi:id="_jPa2KOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Parent_Organization(S)" TagName="Parent_Organization_S_"/>
+      <schemaTargets xmi:id="_jPa2KeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Organization_Status" TagName="Organization_Status"/>
+      <schemaTargets xmi:id="_jPa2KuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Category" TagName="Category"/>
+      <schemaTargets xmi:id="_jPa2K-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Comments" TagName="Comments"/>
+      <schemaTargets xmi:id="_jPa2LOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Created_By" TagName="Created_By2"/>
+      <schemaTargets xmi:id="_jPa2LeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Last_Modified_By" TagName="Last_Modified_By2"/>
+      <schemaTargets xmi:id="_jPa2LuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Address_Line_1" TagName="Address_Line_1"/>
+      <schemaTargets xmi:id="_jPa2L-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Main_Phone" TagName="Main_Phone"/>
+      <schemaTargets xmi:id="_jPa2MOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Address_Line_2" TagName="Address_Line_2"/>
+      <schemaTargets xmi:id="_jPa2MeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Main_Fax" TagName="Main_Fax"/>
+      <schemaTargets xmi:id="_jPa2MuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Address_Line_3" TagName="Address_Line_3"/>
+      <schemaTargets xmi:id="_jPa2M-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Url" TagName="Url"/>
+      <schemaTargets xmi:id="_jPa2NOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.City" TagName="City"/>
+      <schemaTargets xmi:id="_jPa2NeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Email" TagName="Email"/>
+      <schemaTargets xmi:id="_jPa2NuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Currency" TagName="Currency"/>
+      <schemaTargets xmi:id="_jPa2N-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Zip" TagName="Zip"/>
+      <schemaTargets xmi:id="_jPa2OOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Organization.Organization.Country_Or_State" TagName="Country_Or_State"/>
+      <schemaTargets xmi:id="_jPa2OeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.Type" TagName="Type"/>
+      <schemaTargets xmi:id="_jPa2OuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.Email" TagName="Email1"/>
+      <schemaTargets xmi:id="_jPa2O-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.First_Name" TagName="First_Name"/>
+      <schemaTargets xmi:id="_jPa2POP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.Middle_Name" TagName="Middle_Name"/>
+      <schemaTargets xmi:id="_jPa2PeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.Last_Name" TagName="Last_Name"/>
+      <schemaTargets xmi:id="_jPa2PuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.Direct_Phone" TagName="Direct_Phone"/>
+      <schemaTargets xmi:id="_jPa2P-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.Title" TagName="Title"/>
+      <schemaTargets xmi:id="_jPa2QOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.Salutations" TagName="Salutations"/>
+      <schemaTargets xmi:id="_jPa2QeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.Organization" TagName="Organization2"/>
+      <schemaTargets xmi:id="_jPa2QuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.Previous_Organizations" TagName="Previous_Organizations"/>
+      <schemaTargets xmi:id="_jPa2Q-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.Job_Title" TagName="Job_Title"/>
+      <schemaTargets xmi:id="_jPa2ROP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.Owner" TagName="Owner2"/>
+      <schemaTargets xmi:id="_jPbdAOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.User_Type" TagName="User_Type"/>
+      <schemaTargets xmi:id="_jPbdAeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.Comments" TagName="Comments1"/>
+      <schemaTargets xmi:id="_jPbdAuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.Created_By" TagName="Created_By3"/>
+      <schemaTargets xmi:id="_jPbdA-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Contact.Last_Modified_By" TagName="Last_Modified_By3"/>
+      <schemaTargets xmi:id="_jPbdBOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Extended.Address_Line_1" TagName="Address_Line_11"/>
+      <schemaTargets xmi:id="_jPbdBeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Extended.Email_2" TagName="Email_2"/>
+      <schemaTargets xmi:id="_jPbdBuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Extended.Address_Line_2" TagName="Address_Line_21"/>
+      <schemaTargets xmi:id="_jPbdB-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Extended.Phone_Extension" TagName="Phone_Extension"/>
+      <schemaTargets xmi:id="_jPbdCOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Extended.Address_Line_3" TagName="Address_Line_31"/>
+      <schemaTargets xmi:id="_jPbdCeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Extended.Mobile_Phone" TagName="Mobile_Phone"/>
+      <schemaTargets xmi:id="_jPbdCuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Extended.City" TagName="City1"/>
+      <schemaTargets xmi:id="_jPbdC-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Extended.Home_Phone" TagName="Home_Phone"/>
+      <schemaTargets xmi:id="_jPbdDOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Extended.Zip" TagName="Zip1"/>
+      <schemaTargets xmi:id="_jPbdDeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Extended.Direct_Fax" TagName="Direct_Fax"/>
+      <schemaTargets xmi:id="_jPbdDuP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Extended.Country_Or_State" TagName="Country_Or_State1"/>
+      <schemaTargets xmi:id="_jPbdD-P5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Extended.Assistants_Email" TagName="Assistants_Email"/>
+      <schemaTargets xmi:id="_jPbdEOP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Extended.Address_Type" TagName="Address_Type"/>
+      <schemaTargets xmi:id="_jPbdEeP5EeeBu4TdVCWgDg" RelativeXPathQuery="Contact.Extended.Assistants_Phone" TagName="Assistants_Phone"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_jPbdEuP5EeeBu4TdVCWgDg" name="default" dataManager="_jPa18OP5EeeBu4TdVCWgDg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_jPbdE-P5EeeBu4TdVCWgDg" id="_SvIv8OP4EeeBu4TdVCWgDg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdFOP5EeeBu4TdVCWgDg" label="Division" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdFeP5EeeBu4TdVCWgDg" label="Sbe" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdFuP5EeeBu4TdVCWgDg" label="Owner" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdF-P5EeeBu4TdVCWgDg" label="Department" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdGOP5EeeBu4TdVCWgDg" label="Project_Name" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdGeP5EeeBu4TdVCWgDg" label="Access" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdGuP5EeeBu4TdVCWgDg" label="Organization" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdG-P5EeeBu4TdVCWgDg" label="Code_Name" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdHOP5EeeBu4TdVCWgDg" label="Source" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdHeP5EeeBu4TdVCWgDg" label="Project_Priority" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdHuP5EeeBu4TdVCWgDg" label="Deal_Type" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdH-P5EeeBu4TdVCWgDg" label="Sponsor" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdIOP5EeeBu4TdVCWgDg" label="Regions" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdIeP5EeeBu4TdVCWgDg" label="Countries" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdIuP5EeeBu4TdVCWgDg" label="Project_Description" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdI-P5EeeBu4TdVCWgDg" label="Last_Completed_Status" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdJOP5EeeBu4TdVCWgDg" label="Cda_Expiry_Date" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdJeP5EeeBu4TdVCWgDg" label="Date_Of_Cda_Signature" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdJuP5EeeBu4TdVCWgDg" label="Project_Health_After_Cda" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdJ-P5EeeBu4TdVCWgDg" label="Date_Of_Mta_Signature" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdKOP5EeeBu4TdVCWgDg" label="Project_Health_After_Mta" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdKeP5EeeBu4TdVCWgDg" label="Date_Of_1St_Mandate_Nbo" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdKuP5EeeBu4TdVCWgDg" label="Project_Health_After_1St_M" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdK-P5EeeBu4TdVCWgDg" label="Date_Of_End_Of_Due_Diligence" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdLOP5EeeBu4TdVCWgDg" label="Project_Health_After_Dd" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdLeP5EeeBu4TdVCWgDg" label="Date_Of_2Nd_Mandate_Bo" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdLuP5EeeBu4TdVCWgDg" label="Project_Health_After_2Nd_M" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdL-P5EeeBu4TdVCWgDg" label="Bd_N_L_Status" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdMOP5EeeBu4TdVCWgDg" label="Bd_N_L_Status_Change_Date" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdMeP5EeeBu4TdVCWgDg" label="Committees_Approved" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdMuP5EeeBu4TdVCWgDg" label="Project_Status_Description" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdM-P5EeeBu4TdVCWgDg" label="Created_By" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdNOP5EeeBu4TdVCWgDg" label="Last_Modified_By" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdNeP5EeeBu4TdVCWgDg" label="Covered_By_Cda" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdOOP5EeeBu4TdVCWgDg" label="Asset_Name" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdOeP5EeeBu4TdVCWgDg" label="Access1" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdOuP5EeeBu4TdVCWgDg" label="Synonyms" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdO-P5EeeBu4TdVCWgDg" label="Owner1" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdPOP5EeeBu4TdVCWgDg" label="Organization1" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdPeP5EeeBu4TdVCWgDg" label="Division1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdPuP5EeeBu4TdVCWgDg" label="Created_By1" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdP-P5EeeBu4TdVCWgDg" label="Last_Modified_By1" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdQOP5EeeBu4TdVCWgDg" label="Development_Phase" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdQeP5EeeBu4TdVCWgDg" label="Classification" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdQuP5EeeBu4TdVCWgDg" label="Gdd_Area" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdQ-P5EeeBu4TdVCWgDg" label="Therapeutic_Area" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdROP5EeeBu4TdVCWgDg" label="Technologies" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdReP5EeeBu4TdVCWgDg" label="Clinical_Indication" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdRuP5EeeBu4TdVCWgDg" label="Mechanism_Of_Action" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdR-P5EeeBu4TdVCWgDg" label="Scientific_Summary" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdSOP5EeeBu4TdVCWgDg" label="Organization_Name" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdSeP5EeeBu4TdVCWgDg" label="Synonyms1" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdSuP5EeeBu4TdVCWgDg" label="Parent_Organization_S_" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdS-P5EeeBu4TdVCWgDg" label="Organization_Status" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdTOP5EeeBu4TdVCWgDg" label="Category" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdTeP5EeeBu4TdVCWgDg" label="Comments" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdTuP5EeeBu4TdVCWgDg" label="Created_By2" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdT-P5EeeBu4TdVCWgDg" label="Last_Modified_By2" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdUOP5EeeBu4TdVCWgDg" label="Address_Line_1" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdUeP5EeeBu4TdVCWgDg" label="Main_Phone" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdUuP5EeeBu4TdVCWgDg" label="Address_Line_2" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdU-P5EeeBu4TdVCWgDg" label="Main_Fax" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdVOP5EeeBu4TdVCWgDg" label="Address_Line_3" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdVeP5EeeBu4TdVCWgDg" label="Url" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdVuP5EeeBu4TdVCWgDg" label="City" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdV-P5EeeBu4TdVCWgDg" label="Email" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdWOP5EeeBu4TdVCWgDg" label="Currency" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdWeP5EeeBu4TdVCWgDg" label="Zip" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdWuP5EeeBu4TdVCWgDg" label="Country_Or_State" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdW-P5EeeBu4TdVCWgDg" label="Type" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdXOP5EeeBu4TdVCWgDg" label="Email1" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdXeP5EeeBu4TdVCWgDg" label="First_Name" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdXuP5EeeBu4TdVCWgDg" label="Middle_Name" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdX-P5EeeBu4TdVCWgDg" label="Last_Name" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdYOP5EeeBu4TdVCWgDg" label="Direct_Phone" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdYeP5EeeBu4TdVCWgDg" label="Title" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdYuP5EeeBu4TdVCWgDg" label="Salutations" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdY-P5EeeBu4TdVCWgDg" label="Organization2" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdZOP5EeeBu4TdVCWgDg" label="Previous_Organizations" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdZeP5EeeBu4TdVCWgDg" label="Job_Title" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdZuP5EeeBu4TdVCWgDg" label="Owner2" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdZ-P5EeeBu4TdVCWgDg" label="User_Type" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdaOP5EeeBu4TdVCWgDg" label="Comments1" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdaeP5EeeBu4TdVCWgDg" label="Created_By3" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdauP5EeeBu4TdVCWgDg" label="Last_Modified_By3" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbda-P5EeeBu4TdVCWgDg" label="Address_Line_11" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdbOP5EeeBu4TdVCWgDg" label="Email_2" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdbeP5EeeBu4TdVCWgDg" label="Address_Line_21" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdbuP5EeeBu4TdVCWgDg" label="Phone_Extension" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdb-P5EeeBu4TdVCWgDg" label="Address_Line_31" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdcOP5EeeBu4TdVCWgDg" label="Mobile_Phone" length="10" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdceP5EeeBu4TdVCWgDg" label="City1" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdcuP5EeeBu4TdVCWgDg" label="Home_Phone" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdc-P5EeeBu4TdVCWgDg" label="Zip1" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbddOP5EeeBu4TdVCWgDg" label="Direct_Fax" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbddeP5EeeBu4TdVCWgDg" label="Country_Or_State1" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdduP5EeeBu4TdVCWgDg" label="Assistants_Email" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdd-P5EeeBu4TdVCWgDg" label="Address_Type" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPbdeOP5EeeBu4TdVCWgDg" label="Assistants_Phone" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

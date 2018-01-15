@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_gjV_YLJjEee_SfNeCBPspw" DatabaseType="Hive" URL="jdbc:hive2://hdpnn.capgemini.com:10000/default" Port="10000" Username="rshaik4" ServerName="hdpnn.capgemini.com" SID="default" DbmsId="hive_id" ProductId="HIVE">
+  <parameters xmi:id="_gjV_YbJjEee_SfNeCBPspw" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+  <parameters xmi:id="_gjV_YrJjEee_SfNeCBPspw" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="hdpdatanode1.capgemini.com:8030"/>
+  <parameters xmi:id="_gjV_Y7JjEee_SfNeCBPspw" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+  <parameters xmi:id="_gjV_ZLJjEee_SfNeCBPspw" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://hdpnn.capgemini.com:8020"/>
+  <parameters xmi:id="_gjV_ZbJjEee_SfNeCBPspw" key="CONN_PARA_KEY_USERNAME" value="rshaik4"/>
+  <parameters xmi:id="_gjV_ZrJjEee_SfNeCBPspw" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_SfecALJjEee_SfNeCBPspw"/>
+  <parameters xmi:id="_gjV_Z7JjEee_SfNeCBPspw" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_gjV_aLJjEee_SfNeCBPspw" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_6"/>
+  <parameters xmi:id="_gjV_abJjEee_SfNeCBPspw" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="hdpdatanode1.capgemini.com:8050"/>
+  <parameters xmi:id="_gjV_arJjEee_SfNeCBPspw" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="hdpnn.capgemini.com:10020"/>
+  <parameters xmi:id="_gjV_a7JjEee_SfNeCBPspw" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_6"/>
+  <parameters xmi:id="_gjV_bLJjEee_SfNeCBPspw" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+  <parameters xmi:id="_gjV_bbJjEee_SfNeCBPspw" key="CONN_PARA_KEY_DB_SERVER" value="hdpnn.capgemini.com"/>
+  <parameters xmi:id="_gjV_brJjEee_SfNeCBPspw" key="HIVE_AUTHENTICATION_USERNAME" value="hive"/>
+  <parameters xmi:id="_gjV_b7JjEee_SfNeCBPspw" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
+  <parameters xmi:id="_gjV_cLJjEee_SfNeCBPspw" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_gjV_cbJjEee_SfNeCBPspw" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_gjV_crJjEee_SfNeCBPspw" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="HORTONWORKS"/>
+  <parameters xmi:id="_gjV_c7JjEee_SfNeCBPspw" key="HIVE_AUTHENTICATION_PASSWORD" value="SECRET:hive-site:1:javax.jdo.option.ConnectionPassword"/>
+  <parameters xmi:id="_gjV_dLJjEee_SfNeCBPspw" key="CONN_PARA_KEY_MAPRDB_VERSION" value="HDP_2_6"/>
+  <parameters xmi:id="_gjV_dbJjEee_SfNeCBPspw" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="HORTONWORKS"/>
+  <parameters xmi:id="_gjV_drJjEee_SfNeCBPspw" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+  <parameters xmi:id="_gjV_d7JjEee_SfNeCBPspw" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="HORTONWORKS"/>
+  <parameters xmi:id="_gjV_eLJjEee_SfNeCBPspw" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+  <parameters xmi:id="_gjV_ebJjEee_SfNeCBPspw" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="nn/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_gjV_erJjEee_SfNeCBPspw" key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE"/>
+  <parameters xmi:id="_gjV_e7JjEee_SfNeCBPspw" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_gjV_fLJjEee_SfNeCBPspw" key="HIVE_AUTHENTICATION_METASTOREURL" value="thrift://hdpnn.capgemini.com:9083"/>
+  <parameters xmi:id="_gjV_fbJjEee_SfNeCBPspw" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_gjV_frJjEee_SfNeCBPspw" key="HIVE_SERVER_VERSION" value="HIVE2"/>
+  <parameters xmi:id="_gjV_f7JjEee_SfNeCBPspw" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+</TalendMetadata:DatabaseConnection>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_2NPJ0Pn9Eeezr8nhzDJLZg" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_2NPJ0fn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_2NPJ0vn9Eeezr8nhzDJLZg">
+    <elementParameter xmi:id="_2NPJ0_n9Eeezr8nhzDJLZg" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_2NPJ1Pn9Eeezr8nhzDJLZg" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_2NPJ1fn9Eeezr8nhzDJLZg" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ1vn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ1_n9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ2Pn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ2fn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ2vn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ2_n9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ3Pn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ3fn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ3vn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ3_n9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ4Pn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ4fn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ4vn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ4_n9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <routinesParameter xmi:id="_2NPJ5Pn9Eeezr8nhzDJLZg" id="_r11x8N-qEeaVJtBYDWIxig" name="DataOperation"/>
+    <routinesParameter xmi:id="_2NPJ5fn9Eeezr8nhzDJLZg" id="_r2ZLkN-qEeaVJtBYDWIxig" name="Mathematical"/>
+    <routinesParameter xmi:id="_2NPJ5vn9Eeezr8nhzDJLZg" id="_r2ZLlN-qEeaVJtBYDWIxig" name="Numeric"/>
+    <routinesParameter xmi:id="_2NPJ5_n9Eeezr8nhzDJLZg" id="_r2fSMN-qEeaVJtBYDWIxig" name="Relational"/>
+    <routinesParameter xmi:id="_2NPJ6Pn9Eeezr8nhzDJLZg" id="_r2lY0N-qEeaVJtBYDWIxig" name="StringHandling"/>
+    <routinesParameter xmi:id="_2NPJ6fn9Eeezr8nhzDJLZg" id="_r2lY1N-qEeaVJtBYDWIxig" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_2NPJ6vn9Eeezr8nhzDJLZg" id="_r2rfcN-qEeaVJtBYDWIxig" name="TalendDate"/>
+    <routinesParameter xmi:id="_2NPJ6_n9Eeezr8nhzDJLZg" id="_r2rfdN-qEeaVJtBYDWIxig" name="TalendString"/>
+    <routinesParameter xmi:id="_2NPJ7Pn9Eeezr8nhzDJLZg" id="_wiNQ4Pp5Eeatzv_QH17cFg" name="Check_isInteger"/>
+  </parameters>
+  <node xmi:id="_2NPJ7fn9Eeezr8nhzDJLZg" componentName="cSOAP" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="96">
+    <elementParameter xmi:id="_2NPJ7vn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cSOAP_1" show="false"/>
+    <elementParameter xmi:id="_2NPJ7_n9Eeezr8nhzDJLZg" field="TEXT" name="SERVICE_NS" value="" show="false"/>
+    <elementParameter xmi:id="_2NPJ8Pn9Eeezr8nhzDJLZg" field="TEXT" name="ADDRESS" value="&quot;http://www.webservicex.com/globalweather.asmx&quot;"/>
+    <elementParameter xmi:id="_2NPJ8fn9Eeezr8nhzDJLZg" field="CLOSED_LIST" name="SERVICE_TYPE" value="wsdlURL"/>
+    <elementParameter xmi:id="_2NPJ8vn9Eeezr8nhzDJLZg" field="CLOSED_LIST" name="WSDL_TYPE" value="file"/>
+    <elementParameter xmi:id="_2NPJ8_n9Eeezr8nhzDJLZg" field="FILE" name="WSDL_FILE" value="&quot;D:/Users/rshaik4/Desktop/Bayer/wsdl/globalweather.wsdl.xml&quot;"/>
+    <elementParameter xmi:id="_2NPJ9Pn9Eeezr8nhzDJLZg" field="ROUTE_RESOURCE_TYPE" name="WSDL_FILE_REPO" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_2NPJ9fn9Eeezr8nhzDJLZg" field="TECHNICAL" name="WSDL_FILE_REPO:ROUTE_RESOURCE_TYPE_VERSION" value="Latest"/>
+    <elementParameter xmi:id="_2NPJ9vn9Eeezr8nhzDJLZg" field="TEXT" name="SERVICE_CLASS" value="&quot;beans.ServiceClass&quot;" show="false"/>
+    <elementParameter xmi:id="_2NPJ9_n9Eeezr8nhzDJLZg" field="EXTERNAL" name="SERVICE_CONFIGURATION" value=""/>
+    <elementParameter xmi:id="_2NPJ-Pn9Eeezr8nhzDJLZg" field="CLOSED_LIST" name="DATAFORMAT" value="PAYLOAD"/>
+    <elementParameter xmi:id="_2NPJ-fn9Eeezr8nhzDJLZg" field="CHECK" name="ALLOW_STREAMING" value="false"/>
+    <elementParameter xmi:id="_2NPJ-vn9Eeezr8nhzDJLZg" field="LABEL" name="RAW_TOOLTIP" value=" (MESSAGE dataFormat without SAM Support)" show="false"/>
+    <elementParameter xmi:id="_2NPJ-_n9Eeezr8nhzDJLZg" field="LABEL" name="CXF_MESSAGE_TOOLTIP" value=" (MESSAGE dataFormat plus SAM Support)" show="false"/>
+    <elementParameter xmi:id="_2NPJ_Pn9Eeezr8nhzDJLZg" field="TEXT" name="SERVICE_NAME" value="&quot;{http://www.webserviceX.NET}GlobalWeather&quot;"/>
+    <elementParameter xmi:id="_2NPJ_fn9Eeezr8nhzDJLZg" field="TEXT" name="PORT_NAME" value="&quot;{http://www.webserviceX.NET}GlobalWeatherSoap&quot;"/>
+    <elementParameter xmi:id="_2NPJ_vn9Eeezr8nhzDJLZg" field="TEXT" name="OPERATION_NAME" value="&quot;{http://www.webserviceX.NET}GetWeather&quot;" show="false"/>
+    <elementParameter xmi:id="_2NPJ__n9Eeezr8nhzDJLZg" field="CHECK" name="ENABLE_REGISTRY" value="false" show="false"/>
+    <elementParameter xmi:id="_2NPKAPn9Eeezr8nhzDJLZg" field="CHECK" name="ENABLE_SL" value="false"/>
+    <elementParameter xmi:id="_2NPKAfn9Eeezr8nhzDJLZg" field="CHECK" name="ENABLE_SAM" value="false"/>
+    <elementParameter xmi:id="_2NPKAvn9Eeezr8nhzDJLZg" field="CHECK" name="ENABLE_SAM_MESSAGE" value="false" show="false"/>
+    <elementParameter xmi:id="_2NPKA_n9Eeezr8nhzDJLZg" field="CHECK" name="ENABLE_SECURITY" value="false"/>
+    <elementParameter xmi:id="_2NPKBPn9Eeezr8nhzDJLZg" field="CLOSED_LIST" name="SECURITY_TYPE" value="USER" show="false"/>
+    <elementParameter xmi:id="_2NPKBfn9Eeezr8nhzDJLZg" field="LABEL" name="AUTHENTICATION_LABEL" value="Authentication:" show="false"/>
+    <elementParameter xmi:id="_2NPKBvn9Eeezr8nhzDJLZg" field="CLOSED_LIST" name="SAML_SECURITY_TYPES" value="NO_PROPAGATE" show="false"/>
+    <elementParameter xmi:id="_2NPKB_n9Eeezr8nhzDJLZg" field="LABEL" name="PROPAGATE_UP_LABEL" value="" show="false"/>
+    <elementParameter xmi:id="_2NPKCPn9Eeezr8nhzDJLZg" field="LABEL" name="PROPAGATE_AP_LABEL" value="" show="false"/>
+    <elementParameter xmi:id="_2NPKCfn9Eeezr8nhzDJLZg" field="CHECK" name="USE_PROPAGATE_CREDENTIAL" value="false" show="false"/>
+    <elementParameter xmi:id="_2NPKCvn9Eeezr8nhzDJLZg" field="TEXT" name="ALIASNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_2NPKC_n9Eeezr8nhzDJLZg" field="TEXT" name="USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_2NPKDPn9Eeezr8nhzDJLZg" field="PASSWORD" name="PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_2NPKDfn9Eeezr8nhzDJLZg" field="CHECK" name="USE_AUTHORIZATION" value="false" show="false"/>
+    <elementParameter xmi:id="_2NPKDvn9Eeezr8nhzDJLZg" field="LABEL" name="AUTHORIZATION_LABEL" value="Authorization:" show="false"/>
+    <elementParameter xmi:id="_2NPKD_n9Eeezr8nhzDJLZg" field="TEXT" name="ROLE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_2NPKEPn9Eeezr8nhzDJLZg" field="CHECK" name="ENABLE_CORRELATION" value="false"/>
+    <elementParameter xmi:id="_2NPKEfn9Eeezr8nhzDJLZg" field="TEXT" name="CORRELATION_VALUE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_2NPKEvn9Eeezr8nhzDJLZg" field="LABEL" name="CORRELATION_VALUE_TOOLTIP" value="(Simple Expression is Available)" show="false"/>
+    <elementParameter xmi:id="_2NPKE_n9Eeezr8nhzDJLZg" field="CHECK" name="LOG_MESSAGES" value="false"/>
+    <elementParameter xmi:id="_2NPKFPn9Eeezr8nhzDJLZg" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_2NPKFfn9Eeezr8nhzDJLZg" field="TABLE" name="SL_META_DATA" show="false"/>
+    <elementParameter xmi:id="_2NPKFvn9Eeezr8nhzDJLZg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_2NPKF_n9Eeezr8nhzDJLZg" componentName="cExchangePattern" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="96">
+    <elementParameter xmi:id="_2NPKGPn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cExchangePattern_1" show="false"/>
+    <elementParameter xmi:id="_2NPKGfn9Eeezr8nhzDJLZg" field="CLOSED_LIST" name="EXCHANGE_PATTERNS" value="InOnly"/>
+    <elementParameter xmi:id="_2NPKGvn9Eeezr8nhzDJLZg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection xmi:id="_2NPKG_n9Eeezr8nhzDJLZg" connectorName="ROUTE" label="route1" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cSOAP_1" target="cExchangePattern_1">
+    <elementParameter xmi:id="_2NPKHPn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <subjob xmi:id="_2NPKHfn9Eeezr8nhzDJLZg">
+    <elementParameter xmi:id="_2NPKHvn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cCXF_1" show="false"/>
+    <elementParameter xmi:id="_2NPKH_n9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_2NPKIPn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_2NPKIfn9Eeezr8nhzDJLZg">
+    <elementParameter xmi:id="_2NPKIvn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cExchangePattern_1" show="false"/>
+    <elementParameter xmi:id="_2NPKI_n9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_2NPKJPn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

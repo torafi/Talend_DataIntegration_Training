@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_2HMzQfn9Eeezr8nhzDJLZg" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_2HMzQvn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_2HMzQ_n9Eeezr8nhzDJLZg">
+    <elementParameter xmi:id="_2HMzRPn9Eeezr8nhzDJLZg" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_2HMzRfn9Eeezr8nhzDJLZg" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_2HMzRvn9Eeezr8nhzDJLZg" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzR_n9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzSPn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzSfn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzSvn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzS_n9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzTPn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzTfn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzTvn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzT_n9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzUPn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzUfn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzUvn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzU_n9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzVPn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <routinesParameter xmi:id="_2HMzVfn9Eeezr8nhzDJLZg" id="_r11x8N-qEeaVJtBYDWIxig" name="DataOperation"/>
+    <routinesParameter xmi:id="_2HMzVvn9Eeezr8nhzDJLZg" id="_r2ZLkN-qEeaVJtBYDWIxig" name="Mathematical"/>
+    <routinesParameter xmi:id="_2HMzV_n9Eeezr8nhzDJLZg" id="_r2ZLlN-qEeaVJtBYDWIxig" name="Numeric"/>
+    <routinesParameter xmi:id="_2HMzWPn9Eeezr8nhzDJLZg" id="_r2fSMN-qEeaVJtBYDWIxig" name="Relational"/>
+    <routinesParameter xmi:id="_2HMzWfn9Eeezr8nhzDJLZg" id="_r2lY0N-qEeaVJtBYDWIxig" name="StringHandling"/>
+    <routinesParameter xmi:id="_2HMzWvn9Eeezr8nhzDJLZg" id="_r2lY1N-qEeaVJtBYDWIxig" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_2HMzW_n9Eeezr8nhzDJLZg" id="_r2rfcN-qEeaVJtBYDWIxig" name="TalendDate"/>
+    <routinesParameter xmi:id="_2HMzXPn9Eeezr8nhzDJLZg" id="_r2rfdN-qEeaVJtBYDWIxig" name="TalendString"/>
+    <routinesParameter xmi:id="_2HMzXfn9Eeezr8nhzDJLZg" id="_wiNQ4Pp5Eeatzv_QH17cFg" name="Check_isInteger"/>
+  </parameters>
+  <node xmi:id="_2HMzXvn9Eeezr8nhzDJLZg" componentName="cErrorHandler" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="64">
+    <elementParameter xmi:id="_2HMzX_n9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cErrorHandler_1" show="false"/>
+    <elementParameter xmi:id="_2HMzYPn9Eeezr8nhzDJLZg" field="RADIO" name="ERROR_HANDLER" value="false"/>
+    <elementParameter xmi:id="_2HMzYfn9Eeezr8nhzDJLZg" field="RADIO" name="DEAD_LETTER" value="false"/>
+    <elementParameter xmi:id="_2HMzYvn9Eeezr8nhzDJLZg" field="RADIO" name="LOG_HANDLER" value="true"/>
+    <elementParameter xmi:id="_2HMzY_n9Eeezr8nhzDJLZg" field="TEXT" name="DEAD_LETTER_URI" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_2HMzZPn9Eeezr8nhzDJLZg" field="CHECK" name="USE_MAX_REDELIVERIES" value="false" show="false"/>
+    <elementParameter xmi:id="_2HMzZfn9Eeezr8nhzDJLZg" field="TEXT" name="MAX_REDELIVERIES" value="0" show="false"/>
+    <elementParameter xmi:id="_2HMzZvn9Eeezr8nhzDJLZg" field="CHECK" name="USE_REDELIVERY_DELAY" value="false" show="false"/>
+    <elementParameter xmi:id="_2HMzZ_n9Eeezr8nhzDJLZg" field="TEXT" name="REDELIVERY_DELAY" value="1000" show="false"/>
+    <elementParameter xmi:id="_2HMzaPn9Eeezr8nhzDJLZg" field="CHECK" name="USE_RETRY_ATTEMP_LOG_LEVEL" value="false" show="false"/>
+    <elementParameter xmi:id="_2HMzafn9Eeezr8nhzDJLZg" field="CLOSED_LIST" name="RETRY_ATTEMP_LOG_LEVEL" value="INFO" show="false"/>
+    <elementParameter xmi:id="_2HMzavn9Eeezr8nhzDJLZg" field="CHECK" name="ASYNC_DELAYED_REDELIVERY" value="false" show="false"/>
+    <elementParameter xmi:id="_2HMza_n9Eeezr8nhzDJLZg" field="CHECK" name="USE_ORIGINAL_MESSAGE" value="false" show="false"/>
+    <elementParameter xmi:id="_2HMzbPn9Eeezr8nhzDJLZg" field="CHECK" name="MORE_CONFIGURATION" value="false" show="false"/>
+    <elementParameter xmi:id="_2HMzbfn9Eeezr8nhzDJLZg" field="MEMO_JAVA" name="CODE" value="//.retryWhile(header(&quot;retry&quot;))" show="false"/>
+    <elementParameter xmi:id="_2HMzbvn9Eeezr8nhzDJLZg" field="CHECK" name="USE_LOG_NAME" value="false"/>
+    <elementParameter xmi:id="_2HMzb_n9Eeezr8nhzDJLZg" field="TEXT" name="LOG_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_2HMzcPn9Eeezr8nhzDJLZg" field="CHECK" name="USE_LOG_LEVEL" value="false"/>
+    <elementParameter xmi:id="_2HMzcfn9Eeezr8nhzDJLZg" field="CLOSED_LIST" name="LOG_LEVEL" value="INFO" show="false"/>
+    <elementParameter xmi:id="_2HMzcvn9Eeezr8nhzDJLZg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_2HMzc_n9Eeezr8nhzDJLZg" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="192">
+    <elementParameter xmi:id="_2HMzdPn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_2HMzdfn9Eeezr8nhzDJLZg" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_2HMzdvn9Eeezr8nhzDJLZg" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;&#xA;throw new Exception(&quot;Server Side Error&quot;)"/>
+    <elementParameter xmi:id="_2HMzd_n9Eeezr8nhzDJLZg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_2HMzePn9Eeezr8nhzDJLZg" componentName="cMessagingEndpoint" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="192">
+    <elementParameter xmi:id="_2HMzefn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_1" show="false"/>
+    <elementParameter xmi:id="_2HMzevn9Eeezr8nhzDJLZg" field="TEXT" name="URI" value="&quot;jetty:http://localhost:8889/service&quot;"/>
+    <elementParameter xmi:id="_2HMze_n9Eeezr8nhzDJLZg" field="TABLE" name="HOTLIBS">
+      <elementValue xmi:id="_2HMzfPn9Eeezr8nhzDJLZg" elementRef="LIBPATH" value="JETTY"/>
+    </elementParameter>
+    <elementParameter xmi:id="_2HMzffn9Eeezr8nhzDJLZg" field="CHECK" name="USE_CUSTOM_COMPONENT" value="false"/>
+    <elementParameter xmi:id="_2HMzfvn9Eeezr8nhzDJLZg" field="MODULE_LIST" name="LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_2HMzf_n9Eeezr8nhzDJLZg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection xmi:id="_2HMzgPn9Eeezr8nhzDJLZg" connectorName="ROUTE" label="route1" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cMessagingEndpoint_1" target="cProcessor_1">
+    <elementParameter xmi:id="_2HMzgfn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <subjob xmi:id="_2HMzgvn9Eeezr8nhzDJLZg">
+    <elementParameter xmi:id="_2HMzg_n9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cErrorHandler_1" show="false"/>
+    <elementParameter xmi:id="_2HMzhPn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_2HMzhfn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_2HMzhvn9Eeezr8nhzDJLZg">
+    <elementParameter xmi:id="_2HMzh_n9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_2HMziPn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_2HMzifn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_2HMzivn9Eeezr8nhzDJLZg">
+    <elementParameter xmi:id="_2HMzi_n9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_1" show="false"/>
+    <elementParameter xmi:id="_2HMzjPn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_2HMzjfn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

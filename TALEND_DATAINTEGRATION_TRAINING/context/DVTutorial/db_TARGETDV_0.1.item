@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_17Fp4Pn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_17Fp4fn9Eeezr8nhzDJLZg" comment="database login account" name="relationaldv_Login" prompt="relationaldv_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_17Fp4vn9Eeezr8nhzDJLZg" comment="database name" name="relationaldv_Database" prompt="relationaldv_Database?" promptNeeded="false" type="id_String" value="relationaldv"/>
+    <contextParameter xmi:id="_17Fp4_n9Eeezr8nhzDJLZg" comment="database login password" name="relationaldv_Password" prompt="relationaldv_Password?" promptNeeded="false" type="id_Password" value="gnrl1GVq2l7onov0KwZqcg=="/>
+    <contextParameter xmi:id="_17Fp5Pn9Eeezr8nhzDJLZg" comment="database server ip" name="relationaldv_Server" prompt="relationaldv_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_17Fp5fn9Eeezr8nhzDJLZg" comment="database port" name="relationaldv_Port" prompt="relationaldv_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_17Fp5vn9Eeezr8nhzDJLZg" comment="database connection parameters" name="relationaldv_AdditionalParams" prompt="relationaldv_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_17Fp5_n9Eeezr8nhzDJLZg" confirmationNeeded="false" name="TEST">
+    <contextParameter xmi:id="_17Fp6Pn9Eeezr8nhzDJLZg" comment="database login account" name="relationaldv_Login" prompt="relationaldv_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_17Fp6fn9Eeezr8nhzDJLZg" comment="database name" name="relationaldv_Database" prompt="relationaldv_Database?" promptNeeded="false" type="id_String" value="relationaldv"/>
+    <contextParameter xmi:id="_17Fp6vn9Eeezr8nhzDJLZg" comment="database login password" name="relationaldv_Password" prompt="relationaldv_Password?" promptNeeded="false" type="id_Password" value="gnrl1GVq2l7onov0KwZqcg=="/>
+    <contextParameter xmi:id="_17Fp6_n9Eeezr8nhzDJLZg" comment="database server ip" name="relationaldv_Server" prompt="relationaldv_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_17Fp7Pn9Eeezr8nhzDJLZg" comment="database port" name="relationaldv_Port" prompt="relationaldv_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_17Fp7fn9Eeezr8nhzDJLZg" comment="database connection parameters" name="relationaldv_AdditionalParams" prompt="relationaldv_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_17Fp7vn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_17Fp7_n9Eeezr8nhzDJLZg" comment="database login account" name="relationaldv_Login" prompt="relationaldv_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_17Fp8Pn9Eeezr8nhzDJLZg" comment="database name" name="relationaldv_Database" prompt="relationaldv_Database?" promptNeeded="false" type="id_String" value="relationaldv"/>
+    <contextParameter xmi:id="_17Fp8fn9Eeezr8nhzDJLZg" comment="database login password" name="relationaldv_Password" prompt="relationaldv_Password?" promptNeeded="false" type="id_Password" value="gnrl1GVq2l7onov0KwZqcg=="/>
+    <contextParameter xmi:id="_17Fp8vn9Eeezr8nhzDJLZg" comment="database server ip" name="relationaldv_Server" prompt="relationaldv_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_17Fp8_n9Eeezr8nhzDJLZg" comment="database port" name="relationaldv_Port" prompt="relationaldv_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_17Fp9Pn9Eeezr8nhzDJLZg" comment="database connection parameters" name="relationaldv_AdditionalParams" prompt="relationaldv_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  </talendfile:ContextType>
+</xmi:XMI>

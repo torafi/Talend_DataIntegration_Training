@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_1F7GEN5qEeeCBZFuE1eMPw" dataPackage="_1F7GEd5qEeeCBZFuE1eMPw"/>
+  <TalendMetadata:GenericPackage xmi:id="_1F7GEd5qEeeCBZFuE1eMPw" dataManager="_1F7GEN5qEeeCBZFuE1eMPw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_1F7GEt5qEeeCBZFuE1eMPw" id="_xWBF0d5qEeeCBZFuE1eMPw" label="Licensing">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7GE95qEeeCBZFuE1eMPw" name="Division" label="Division" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7GFN5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7GFd5qEeeCBZFuE1eMPw" name="SBE" label="SBE" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7GFt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7GF95qEeeCBZFuE1eMPw" name="Owner" label="Owner" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7GGN5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7GGd5qEeeCBZFuE1eMPw" name="Department" label="Department" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7GGt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7GG95qEeeCBZFuE1eMPw" name="Project_Name" label="Project_Name" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7GHN5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7GHd5qEeeCBZFuE1eMPw" name="Access" label="Access" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7GHt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7GH95qEeeCBZFuE1eMPw" name="Organization" label="Organization" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7GIN5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7GId5qEeeCBZFuE1eMPw" name="Code_name" label="Code_name" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7GIt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7GI95qEeeCBZFuE1eMPw" name="Source" label="Source" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tIN5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tId5qEeeCBZFuE1eMPw" name="Project_Priority" label="Project_Priority" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tIt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tI95qEeeCBZFuE1eMPw" name="Deal_Type" label="Deal_Type" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tJN5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tJd5qEeeCBZFuE1eMPw" name="Sponsor" label="Sponsor" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tJt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tJ95qEeeCBZFuE1eMPw" name="Regions" label="Regions" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tKN5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tKd5qEeeCBZFuE1eMPw" name="Countries" label="Countries" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tKt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tK95qEeeCBZFuE1eMPw" name="Project_Description" label="Project_Description" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tLN5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tLd5qEeeCBZFuE1eMPw" name="Covered_by_CDA" label="Covered_by_CDA" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tLt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tL95qEeeCBZFuE1eMPw" name="Covered_by_CDA1" label="Covered_by_CDA1" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tMN5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tMd5qEeeCBZFuE1eMPw" name="Covered_by_CDA2" label="Covered_by_CDA2" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tMt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tM95qEeeCBZFuE1eMPw" name="Last_Completed_Status" label="Last_Completed_Status" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tNN5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tNd5qEeeCBZFuE1eMPw" name="CDA_Expiry_Date" label="CDA_Expiry_Date" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_1F7tNt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tN95qEeeCBZFuE1eMPw" name="Date_of_CDA_signature" label="Date_of_CDA_signature" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_1F7tON5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tOd5qEeeCBZFuE1eMPw" name="Project_Health_after_CDA" label="Project_Health_after_CDA" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tOt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tO95qEeeCBZFuE1eMPw" name="Date_of_MTA_signature" label="Date_of_MTA_signature" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_1F7tPN5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tPd5qEeeCBZFuE1eMPw" name="Project_Health_after_MTA" label="Project_Health_after_MTA" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tPt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tP95qEeeCBZFuE1eMPw" name="Date_of_1st_Mandate_" label="Date_of_1st_Mandate_" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_1F7tQN5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tQd5qEeeCBZFuE1eMPw" name="Project_Health_after_1st_M" label="Project_Health_after_1st_M" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tQt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tQ95qEeeCBZFuE1eMPw" name="Date_of_end_of_Due_Diligence" label="Date_of_end_of_Due_Diligence" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_1F7tRN5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tRd5qEeeCBZFuE1eMPw" name="Project_Health_after_DD" label="Project_Health_after_DD" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tRt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tR95qEeeCBZFuE1eMPw" name="Date_of_2nd_Mandate_" label="Date_of_2nd_Mandate_" length="9" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_1F7tSN5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1F7tSd5qEeeCBZFuE1eMPw" name="Project_Health_after_2nd_M" label="Project_Health_after_2nd_M" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_1F7tSt5qEeeCBZFuE1eMPw" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_17M-oPn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_17M-ofn9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Password" prompt="relationaldvpit_Password?" promptNeeded="false" type="id_Password" value="gnrl1GVq2l7onov0KwZqcg=="/>
+    <contextParameter xmi:id="_17M-ovn9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Login" prompt="relationaldvpit_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_17M-o_n9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Port" prompt="relationaldvpit_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_17M-pPn9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Database" prompt="relationaldvpit_Database?" promptNeeded="false" type="id_String" value="relationaldvpit"/>
+    <contextParameter xmi:id="_17M-pfn9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_AdditionalParams" prompt="relationaldvpit_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_17M-pvn9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Server" prompt="relationaldvpit_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_17M-p_n9Eeezr8nhzDJLZg" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_17M-qPn9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Password" prompt="relationaldvpit_Password?" promptNeeded="false" type="id_Password" value="gnrl1GVq2l7onov0KwZqcg=="/>
+    <contextParameter xmi:id="_17M-qfn9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Login" prompt="relationaldvpit_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_17M-qvn9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Port" prompt="relationaldvpit_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_17M-q_n9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Database" prompt="relationaldvpit_Database?" promptNeeded="false" type="id_String" value="relationaldvpit"/>
+    <contextParameter xmi:id="_17M-rPn9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_AdditionalParams" prompt="relationaldvpit_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_17M-rfn9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Server" prompt="relationaldvpit_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_17M-rvn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="TEST">
+    <contextParameter xmi:id="_17M-r_n9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Password" prompt="relationaldvpit_Password?" promptNeeded="false" type="id_Password" value="gnrl1GVq2l7onov0KwZqcg=="/>
+    <contextParameter xmi:id="_17M-sPn9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Login" prompt="relationaldvpit_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_17M-sfn9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Port" prompt="relationaldvpit_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_17M-svn9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Database" prompt="relationaldvpit_Database?" promptNeeded="false" type="id_String" value="relationaldvpit"/>
+    <contextParameter xmi:id="_17M-s_n9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_AdditionalParams" prompt="relationaldvpit_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_17M-tPn9Eeezr8nhzDJLZg" comment="" name="relationaldvpit_Server" prompt="relationaldvpit_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  </talendfile:ContextType>
+</xmi:XMI>

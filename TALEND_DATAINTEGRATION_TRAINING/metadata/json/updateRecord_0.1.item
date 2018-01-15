@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_I0WKAcL3EeeVIaEiqSWQ4w" name="updateRecord" dataPackage="_I0WxFcL3EeeVIaEiqSWQ4w" JSONFilePath="D:/Users/rshaik4/Desktop/SampleFiles/updateRecord.json" Encoding="UTF-8" readbyMode="XPATH">
+    <schema xmi:id="_I0WxEML3EeeVIaEiqSWQ4w" LimitBoucle="50" AbsoluteXPathQuery="/content/objects/fields" flag="ROOT">
+      <schemaTargets xmi:id="_I0WxEcL3EeeVIaEiqSWQ4w" RelativeXPathQuery="../className" TagName="className"/>
+      <schemaTargets xmi:id="_I0WxEsL3EeeVIaEiqSWQ4w" RelativeXPathQuery="../oid" TagName="oid"/>
+      <schemaTargets xmi:id="_I0WxE8L3EeeVIaEiqSWQ4w" RelativeXPathQuery="name" TagName="name"/>
+      <schemaTargets xmi:id="_I0WxFML3EeeVIaEiqSWQ4w" RelativeXPathQuery="value" TagName="value"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_I0WxFcL3EeeVIaEiqSWQ4w" name="default" dataManager="_I0WKAcL3EeeVIaEiqSWQ4w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_I0WxFsL3EeeVIaEiqSWQ4w" id="_0pkSwML2EeeVIaEiqSWQ4w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I0WxF8L3EeeVIaEiqSWQ4w" label="className" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I0WxGML3EeeVIaEiqSWQ4w" label="oid" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I0WxGcL3EeeVIaEiqSWQ4w" label="name" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I0WxGsL3EeeVIaEiqSWQ4w" label="value" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

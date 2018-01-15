@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_17rfwPn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="Dev">
+    <contextParameter xmi:id="_17rfwfn9Eeezr8nhzDJLZg" comment="" name="destination_directory" prompt="destination_directory?" promptNeeded="false" type="id_String" value="&quot;C:/Talend/Workspace/Context/Def/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_17rfwvn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="Prod">
+    <contextParameter xmi:id="_17rfw_n9Eeezr8nhzDJLZg" comment="" name="destination_directory" prompt="destination_directory?" promptNeeded="false" type="id_String" value="&quot;C:/Talend/Workspace/Context/Prod/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_17rfxPn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="Uat">
+    <contextParameter xmi:id="_17rfxfn9Eeezr8nhzDJLZg" comment="" name="destination_directory" prompt="destination_directory?" promptNeeded="false" type="id_String" value="&quot;C:/Talend/Workspace/Context/Uat/&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>

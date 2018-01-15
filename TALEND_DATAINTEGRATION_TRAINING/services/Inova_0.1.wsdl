@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://inova-software.com/vap/webservice/dataservice/definition" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="dataServiceService" targetNamespace="http://inova-software.com/vap/webservice/dataservice/definition">
+  <wsdl:types>
+    <xs:schema xmlns:xmime="http://www.w3.org/2005/05/xmlmime" targetNamespace="http://inova-software.com/vap/webservice/dataservice/definition" version="1.0">
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--PARAMETERS :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:simpleType name="classNameType">
+        <xs:restriction base="xs:string"/>
+      </xs:simpleType>
+      <xs:simpleType name="startIndexType">
+        <xs:restriction base="xs:int"/>
+      </xs:simpleType>
+      <xs:simpleType name="noOfResultsType">
+        <xs:restriction base="xs:int"/>
+      </xs:simpleType>
+      <xs:simpleType name="atomicType">
+        <xs:restriction base="xs:boolean"/>
+      </xs:simpleType>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="filterType">
+        <xs:choice>
+          <xs:element maxOccurs="1" minOccurs="1" name="and" type="tns:andType"/>
+          <xs:element maxOccurs="1" minOccurs="1" name="or" type="tns:orType"/>
+        </xs:choice>
+      </xs:complexType>
+      <xs:complexType abstract="true" name="logicOperatorType">
+        <xs:sequence>
+          <xs:group maxOccurs="unbounded" minOccurs="0" ref="tns:logicOperatorContentType"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:group name="logicOperatorContentType">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="attribute" type="tns:filterAttributeType"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="and" type="tns:andType"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="or" type="tns:orType"/>
+        </xs:sequence>
+      </xs:group>
+      <xs:complexType name="andType">
+        <xs:complexContent>
+          <xs:extension base="tns:logicOperatorType">
+            <xs:sequence/>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="orType">
+        <xs:complexContent>
+          <xs:extension base="tns:logicOperatorType">
+            <xs:sequence/>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="filterAttributeType">
+        <xs:sequence/>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+        <xs:attribute name="operation" type="tns:operationType" use="required"/>
+        <xs:attribute name="value" type="xs:string"/>
+      </xs:complexType>
+      <xs:simpleType name="operationType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="equals"/>
+          <xs:enumeration value="like"/>
+          <xs:enumeration value="greater"/>
+          <xs:enumeration value="greater-or-equals"/>
+          <xs:enumeration value="smaller"/>
+          <xs:enumeration value="smaller-or-equals"/>
+          <xs:enumeration value="after"/>
+          <xs:enumeration value="after-or-equals"/>
+          <xs:enumeration value="before"/>
+          <xs:enumeration value="before-or-equals"/>
+          <xs:enumeration value="is-null"/>
+          <xs:enumeration value="is-not-null"/>
+          <xs:enumeration value="references"/>
+        </xs:restriction>
+      </xs:simpleType>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="orderType">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="attribute" type="tns:orderAttributeType"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="orderAttributeType">
+        <xs:attribute name="name" type="xs:string" use="required"/>
+        <xs:attribute name="order" type="tns:directionType" use="required"/>
+      </xs:complexType>
+      <xs:simpleType name="directionType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="asc"/>
+          <xs:enumeration value="desc"/>
+        </xs:restriction>
+      </xs:simpleType>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="requestedAttributesType">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="attribute" type="tns:requestedAttributesAttributeType"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="requestedAttributesAttributeType">
+        <xs:attribute name="name" type="xs:string" use="required"/>
+      </xs:complexType>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="basicObjectType">
+        <xs:attribute name="class" type="xs:string" use="required"/>
+        <xs:attribute name="oid" type="xs:string"/>
+        <xs:attribute name="externalId" type="xs:string"/>
+      </xs:complexType>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="objectsType">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="object" type="tns:objectType"/>
+        </xs:sequence>
+        <xs:attribute name="isLastPage" type="xs:boolean"/>
+      </xs:complexType>
+      <xs:complexType name="objectType">
+        <xs:complexContent>
+          <xs:extension base="tns:basicObjectType">
+            <xs:sequence>
+              <xs:group maxOccurs="unbounded" minOccurs="0" ref="tns:objectContentType"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:group name="objectContentType">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="field" type="tns:fieldType"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="multipleLink" type="tns:multipleLinkType"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="singleLink" type="tns:singleLinkType"/>
+        </xs:sequence>
+      </xs:group>
+      <xs:complexType name="multipleLinkType">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="object" type="tns:objectType"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+        <xs:attribute name="operation" type="tns:multipleLinkOperationType"/>
+      </xs:complexType>
+      <xs:complexType name="singleLinkType">
+        <xs:sequence>
+          <xs:element maxOccurs="1" minOccurs="0" name="object" type="tns:objectType"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+        <xs:attribute name="operation" type="tns:singleLinkOperationType"/>
+      </xs:complexType>
+      <xs:complexType name="fieldType">
+        <xs:choice>
+          <xs:element maxOccurs="1" minOccurs="0" name="value"/>
+          <xs:element maxOccurs="1" minOccurs="0" name="data" type="xs:base64Binary" xmime:expectedContentTypes="application/octet-stream"/>
+        </xs:choice>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+      </xs:complexType>
+      <xs:simpleType name="multipleLinkOperationType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="add"/>
+          <xs:enumeration value="update"/>
+          <xs:enumeration value="remove"/>
+          <xs:enumeration value="replace"/>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="singleLinkOperationType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="update"/>
+          <xs:enumeration value="set"/>
+        </xs:restriction>
+      </xs:simpleType>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--RESPONSE :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="createResponseType">
+        <xs:sequence>
+          <xs:element maxOccurs="1" minOccurs="1" name="objects" type="tns:objectsStatusType"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="createResponse" nillable="true" type="tns:createResponseType"/>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="readResponseType">
+        <xs:sequence>
+          <xs:element maxOccurs="1" minOccurs="1" name="objects" type="tns:objectsType"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="readResponse" nillable="true" type="tns:readResponseType"/>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="updateResponseType">
+        <xs:sequence>
+          <xs:element maxOccurs="1" minOccurs="1" name="objects" type="tns:objectsStatusType"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="updateResponse" nillable="true" type="tns:updateResponseType"/>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="deleteResponseType">
+        <xs:sequence>
+          <xs:element maxOccurs="1" minOccurs="1" name="objects" type="tns:objectsStatusType"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="deleteResponse" nillable="true" type="tns:deleteResponseType"/>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="errorsType">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="error" type="tns:errorType"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="errorType">
+        <xs:sequence>
+          <xs:element maxOccurs="1" minOccurs="0" name="message" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="detail" type="xs:string"/>
+          <xs:element maxOccurs="1" minOccurs="0" name="relatedObject" type="tns:basicObjectType"/>
+        </xs:sequence>
+        <xs:attribute name="code" type="xs:string"/>
+      </xs:complexType>
+      <xs:element name="errors" nillable="true" type="tns:errorsType"/>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="objectsStatusType">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="object" type="tns:objectStatusType"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="objectStatusType">
+        <xs:complexContent>
+          <xs:extension base="tns:basicObjectType">
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="error" type="tns:errorType"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="object" type="tns:objectStatusType"/>
+            </xs:sequence>
+            <xs:attribute name="status" type="tns:statusType"/>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:simpleType name="statusType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="success"/>
+          <xs:enumeration value="error"/>
+          <xs:enumeration value="rolledback"/>
+        </xs:restriction>
+      </xs:simpleType>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--OPERATIONS :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="createType">
+        <xs:sequence>
+          <xs:element maxOccurs="1" minOccurs="1" name="objects" type="tns:objectsType"/>
+          <xs:element maxOccurs="1" minOccurs="1" name="atomic" type="tns:atomicType"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="create" type="tns:createType"/>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="readType">
+        <xs:sequence>
+          <xs:element maxOccurs="1" minOccurs="1" name="className" type="tns:classNameType"/>
+          <xs:element maxOccurs="1" minOccurs="0" name="filter" type="tns:filterType"/>
+          <xs:element maxOccurs="1" minOccurs="0" name="order" type="tns:orderType"/>
+          <xs:element maxOccurs="1" minOccurs="0" name="requestedAttributes" type="tns:requestedAttributesType"/>
+          <xs:element maxOccurs="1" minOccurs="1" name="startIndex" type="tns:startIndexType"/>
+          <xs:element maxOccurs="1" minOccurs="1" name="noOfResults" type="tns:noOfResultsType"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="read" type="tns:readType"/>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="updateType">
+        <xs:sequence>
+          <xs:element maxOccurs="1" minOccurs="1" name="objects" type="tns:objectsType"/>
+          <xs:element maxOccurs="1" minOccurs="1" name="atomic" type="tns:atomicType"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="update" type="tns:updateType"/>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+      <xs:complexType name="deleteType">
+        <xs:sequence>
+          <xs:element maxOccurs="1" minOccurs="1" name="objects" type="tns:objectsType"/>
+          <xs:element maxOccurs="1" minOccurs="1" name="atomic" type="tns:atomicType"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="delete" type="tns:deleteType"/>
+      <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="readResponse">
+    <wsdl:part element="tns:readResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="delete">
+    <wsdl:part element="tns:delete" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="createResponse">
+    <wsdl:part element="tns:createResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="read">
+    <wsdl:part element="tns:read" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="fault">
+    <wsdl:part element="tns:errors" name="fault"/>
+  </wsdl:message>
+  <wsdl:message name="create">
+    <wsdl:part element="tns:create" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="deleteResponse">
+    <wsdl:part element="tns:deleteResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="update">
+    <wsdl:part element="tns:update" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="updateResponse">
+    <wsdl:part element="tns:updateResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:portType name="dataService">
+    <wsdl:operation name="create">
+      <wsdl:input message="tns:create" name="create"/>
+      <wsdl:output message="tns:createResponse" name="createResponse"/>
+      <wsdl:fault message="tns:fault" name="fault"/>
+    </wsdl:operation>
+    <wsdl:operation name="read">
+      <wsdl:input message="tns:read" name="read"/>
+      <wsdl:output message="tns:readResponse" name="readResponse"/>
+      <wsdl:fault message="tns:fault" name="fault"/>
+    </wsdl:operation>
+    <wsdl:operation name="update">
+      <wsdl:input message="tns:update" name="update"/>
+      <wsdl:output message="tns:updateResponse" name="updateResponse"/>
+      <wsdl:fault message="tns:fault" name="fault"/>
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <wsdl:input message="tns:delete" name="delete"/>
+      <wsdl:output message="tns:deleteResponse" name="deleteResponse"/>
+      <wsdl:fault message="tns:fault" name="fault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="dataServiceServiceSoapBinding" type="tns:dataService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="create">
+      <soap:operation soapAction="createAction" style="document"/>
+      <wsdl:input name="create">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault name="fault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="read">
+      <soap:operation soapAction="readAction" style="document"/>
+      <wsdl:input name="read">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="readResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault name="fault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="update">
+      <soap:operation soapAction="updateAction" style="document"/>
+      <wsdl:input name="update">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault name="fault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <soap:operation soapAction="deleteAction" style="document"/>
+      <wsdl:input name="delete">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="deleteResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault name="fault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="dataServiceService">
+    <wsdl:port binding="tns:dataServiceServiceSoapBinding" name="dataServicePort">
+      <soap:address location="https://localhost:8793/inova-partner/ctx/authbasic/ws/DataService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

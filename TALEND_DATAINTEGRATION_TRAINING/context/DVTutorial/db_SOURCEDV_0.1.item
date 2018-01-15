@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_167R0Pn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_167R0fn9Eeezr8nhzDJLZg" comment="database login account" name="sourcedv_Login" prompt="sourcedv_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_167R0vn9Eeezr8nhzDJLZg" comment="database name" name="sourcedv_Database" prompt="sourcedv_Database?" promptNeeded="false" type="id_String" value="sourcedv"/>
+    <contextParameter xmi:id="_167R0_n9Eeezr8nhzDJLZg" comment="database login password" name="sourcedv_Password" prompt="sourcedv_Password?" promptNeeded="false" type="id_Password" value="gnrl1GVq2l7onov0KwZqcg=="/>
+    <contextParameter xmi:id="_167R1Pn9Eeezr8nhzDJLZg" comment="database server ip" name="sourcedv_Server" prompt="sourcedv_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_167R1fn9Eeezr8nhzDJLZg" comment="database port" name="sourcedv_Port" prompt="sourcedv_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_167R1vn9Eeezr8nhzDJLZg" comment="database connection parameters" name="sourcedv_AdditionalParams" prompt="sourcedv_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_167R1_n9Eeezr8nhzDJLZg" confirmationNeeded="false" name="TEST">
+    <contextParameter xmi:id="_167R2Pn9Eeezr8nhzDJLZg" comment="database login account" name="sourcedv_Login" prompt="sourcedv_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_167R2fn9Eeezr8nhzDJLZg" comment="database name" name="sourcedv_Database" prompt="sourcedv_Database?" promptNeeded="false" type="id_String" value="sourcedv"/>
+    <contextParameter xmi:id="_167R2vn9Eeezr8nhzDJLZg" comment="database login password" name="sourcedv_Password" prompt="sourcedv_Password?" promptNeeded="false" type="id_Password" value="gnrl1GVq2l7onov0KwZqcg=="/>
+    <contextParameter xmi:id="_167R2_n9Eeezr8nhzDJLZg" comment="database server ip" name="sourcedv_Server" prompt="sourcedv_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_167R3Pn9Eeezr8nhzDJLZg" comment="database port" name="sourcedv_Port" prompt="sourcedv_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_167R3fn9Eeezr8nhzDJLZg" comment="database connection parameters" name="sourcedv_AdditionalParams" prompt="sourcedv_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_167R3vn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_167R3_n9Eeezr8nhzDJLZg" comment="database login account" name="sourcedv_Login" prompt="sourcedv_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_167R4Pn9Eeezr8nhzDJLZg" comment="database name" name="sourcedv_Database" prompt="sourcedv_Database?" promptNeeded="false" type="id_String" value="sourcedv"/>
+    <contextParameter xmi:id="_167R4fn9Eeezr8nhzDJLZg" comment="database login password" name="sourcedv_Password" prompt="sourcedv_Password?" promptNeeded="false" type="id_Password" value="gnrl1GVq2l7onov0KwZqcg=="/>
+    <contextParameter xmi:id="_167R4vn9Eeezr8nhzDJLZg" comment="database server ip" name="sourcedv_Server" prompt="sourcedv_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_167R4_n9Eeezr8nhzDJLZg" comment="database port" name="sourcedv_Port" prompt="sourcedv_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_167R5Pn9Eeezr8nhzDJLZg" comment="database connection parameters" name="sourcedv_AdditionalParams" prompt="sourcedv_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  </talendfile:ContextType>
+</xmi:XMI>

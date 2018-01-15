@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
+  <Services:ServiceConnection xmi:id="_3EKfMMViEeeyZ5pRjUv7Kw" WSDLPath="D:/Users/rshaik4/Desktop/SoupUI/DataService_1.wsdl" servicePort="_3Fc4oMViEeeyZ5pRjUv7Kw"/>
+  <Services:ServicePort xmi:id="_3Fc4oMViEeeyZ5pRjUv7Kw" name="dataService" id="_3FU80MViEeeyZ5pRjUv7Kw" serviceOperation="_3Fc4ocViEeeyZ5pRjUv7Kw _3Fc4osViEeeyZ5pRjUv7Kw _3Fc4o8ViEeeyZ5pRjUv7Kw _3Fc4pMViEeeyZ5pRjUv7Kw"/>
+  <Services:ServiceOperation xmi:id="_3Fc4ocViEeeyZ5pRjUv7Kw" label="create" name="create" id="_3FacYMViEeeyZ5pRjUv7Kw"/>
+  <Services:ServiceOperation xmi:id="_3Fc4osViEeeyZ5pRjUv7Kw" label="read" name="read" id="_3FbDcMViEeeyZ5pRjUv7Kw"/>
+  <Services:ServiceOperation xmi:id="_3Fc4o8ViEeeyZ5pRjUv7Kw" label="update" name="update" id="_3FbDccViEeeyZ5pRjUv7Kw"/>
+  <Services:ServiceOperation xmi:id="_3Fc4pMViEeeyZ5pRjUv7Kw" label="delete" name="delete" id="_3FbDcsViEeeyZ5pRjUv7Kw"/>
+</xmi:XMI>

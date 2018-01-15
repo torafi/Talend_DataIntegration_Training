@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_17xmYPn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="Production">
+    <contextParameter xmi:id="_17xmYfn9Eeezr8nhzDJLZg" comment="" name="destination_file_path" prompt="destination_file_path?" promptNeeded="false" type="id_String" value="&quot;C:/Talend/Workspace/Context/Production/out.txt&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_17xmYvn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="Test">
+    <contextParameter xmi:id="_17xmY_n9Eeezr8nhzDJLZg" comment="" name="destination_file_path" prompt="destination_file_path?" promptNeeded="false" type="id_String" value="&quot;C:/Talend/Workspace/Context/Test/out.txt&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>

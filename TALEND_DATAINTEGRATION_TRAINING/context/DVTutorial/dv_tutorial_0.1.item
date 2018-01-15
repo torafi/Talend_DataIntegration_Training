@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_17UTYPn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_17UTYfn9Eeezr8nhzDJLZg" comment="contains a file path only" name="file_path" prompt="file_path?" promptNeeded="false" type="id_String" value="c:/temp/dvFILES/"/>
+    <contextParameter xmi:id="_17UTYvn9Eeezr8nhzDJLZg" comment="contains a file name only" name="file_name" prompt="file_name?" promptNeeded="false" type="id_String" value="filename.txt"/>
+    <contextParameter xmi:id="_17UTY_n9Eeezr8nhzDJLZg" comment="contains a log file name only" name="logfile_name" prompt="logfile_name?" promptNeeded="false" type="id_String" value="logfilename.log"/>
+    <contextParameter xmi:id="_17UTZPn9Eeezr8nhzDJLZg" comment="contains starting sequence number" name="seq_start" prompt="seq_start?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_17UTZfn9Eeezr8nhzDJLZg" comment="contains number of accounts to create" name="nbr_accounts" prompt="nbr_accounts?" promptNeeded="false" type="id_Integer" value="10000"/>
+    <contextParameter xmi:id="_17UTZvn9Eeezr8nhzDJLZg" comment="contains number of users to create" name="nbr_users" prompt="nbr_users?" promptNeeded="false" type="id_Integer" value="20000"/>
+    <contextParameter xmi:id="_17UTZ_n9Eeezr8nhzDJLZg" comment="contains number of users to link to accounts" name="nbr_users_per_account" prompt="nbr_users_per_account?" promptNeeded="false" type="id_Integer" value="2"/>
+    <contextParameter xmi:id="_17UTaPn9Eeezr8nhzDJLZg" comment="contains the local offset from GMT" name="timezone_offset" prompt="timezone_offset?" promptNeeded="false" type="id_String" value="-08:00"/>
+    <contextParameter xmi:id="_17UTafn9Eeezr8nhzDJLZg" comment="contains a full path and file name" name="dumpfile_name" prompt="dumpfile_name?" promptNeeded="false" type="id_String" value="c:/temp/dvFILES/file.dmp"/>
+    <contextParameter xmi:id="_17UTavn9Eeezr8nhzDJLZg" comment="contains a string version of a date" name="strDate" prompt="strDate?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_17UTa_n9Eeezr8nhzDJLZg" comment="contains a date version of a date" name="dtDate" prompt="dtDate?" promptNeeded="false" type="id_Date" value=""/>
+    <contextParameter xmi:id="_17UTbPn9Eeezr8nhzDJLZg" comment="contains current etl_control ID" name="control_id" prompt="control_id?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_17UTbfn9Eeezr8nhzDJLZg" comment="contains a log file path only" name="logfile_path" prompt="logfile_path?" promptNeeded="false" type="id_String" value="c:/temp/dvLOGS/"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_17UTbvn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="TEST">
+    <contextParameter xmi:id="_17UTb_n9Eeezr8nhzDJLZg" comment="contains a file path only" name="file_path" prompt="file_path?" promptNeeded="false" type="id_String" value="c:/temp/dvFILES/"/>
+    <contextParameter xmi:id="_17UTcPn9Eeezr8nhzDJLZg" comment="contains a file name only" name="file_name" prompt="file_name?" promptNeeded="false" type="id_String" value="filename.txt"/>
+    <contextParameter xmi:id="_17UTcfn9Eeezr8nhzDJLZg" comment="contains a log file name only" name="logfile_name" prompt="logfile_name?" promptNeeded="false" type="id_String" value="logfilename.log"/>
+    <contextParameter xmi:id="_17UTcvn9Eeezr8nhzDJLZg" comment="contains starting sequence number" name="seq_start" prompt="seq_start?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_17UTc_n9Eeezr8nhzDJLZg" comment="contains number of accounts to create" name="nbr_accounts" prompt="nbr_accounts?" promptNeeded="false" type="id_Integer" value="10000"/>
+    <contextParameter xmi:id="_17UTdPn9Eeezr8nhzDJLZg" comment="contains number of users to create" name="nbr_users" prompt="nbr_users?" promptNeeded="false" type="id_Integer" value="30000"/>
+    <contextParameter xmi:id="_17UTdfn9Eeezr8nhzDJLZg" comment="contains number of users to link to accounts" name="nbr_users_per_account" prompt="nbr_users_per_account?" promptNeeded="false" type="id_Integer" value="3"/>
+    <contextParameter xmi:id="_17UTdvn9Eeezr8nhzDJLZg" comment="contains the local offset from GMT" name="timezone_offset" prompt="timezone_offset?" promptNeeded="false" type="id_String" value="-08:00"/>
+    <contextParameter xmi:id="_17UTd_n9Eeezr8nhzDJLZg" comment="contains a full path and file name" name="dumpfile_name" prompt="dumpfile_name?" promptNeeded="false" type="id_String" value="c:/temp/dvFILES/file.dmp"/>
+    <contextParameter xmi:id="_17UTePn9Eeezr8nhzDJLZg" comment="contains a string version of a date" name="strDate" prompt="strDate?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_17UTefn9Eeezr8nhzDJLZg" comment="contains a date version of a date" name="dtDate" prompt="dtDate?" promptNeeded="false" type="id_Date" value=""/>
+    <contextParameter xmi:id="_17UTevn9Eeezr8nhzDJLZg" comment="contains current etl_control ID" name="control_id" prompt="control_id?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_17UTe_n9Eeezr8nhzDJLZg" comment="contains a log file path only" name="logfile_path" prompt="logfile_path?" promptNeeded="false" type="id_String" value="c:/temp/dvLOGS/"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_17UTfPn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_17UTffn9Eeezr8nhzDJLZg" comment="contains a file path only" name="file_path" prompt="file_path?" promptNeeded="false" type="id_String" value="c:/temp/dvFILES/"/>
+    <contextParameter xmi:id="_17UTfvn9Eeezr8nhzDJLZg" comment="contains a file name only" name="file_name" prompt="file_name?" promptNeeded="false" type="id_String" value="filename.txt"/>
+    <contextParameter xmi:id="_17UTf_n9Eeezr8nhzDJLZg" comment="contains a log file name only" name="logfile_name" prompt="logfile_name?" promptNeeded="false" type="id_String" value="logfilename.log"/>
+    <contextParameter xmi:id="_17UTgPn9Eeezr8nhzDJLZg" comment="contains starting sequence number" name="seq_start" prompt="seq_start?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_17UTgfn9Eeezr8nhzDJLZg" comment="contains number of accounts to create" name="nbr_accounts" prompt="nbr_accounts?" promptNeeded="false" type="id_Integer" value="10000"/>
+    <contextParameter xmi:id="_17UTgvn9Eeezr8nhzDJLZg" comment="contains number of users to create" name="nbr_users" prompt="nbr_users?" promptNeeded="false" type="id_Integer" value="20000"/>
+    <contextParameter xmi:id="_17UTg_n9Eeezr8nhzDJLZg" comment="contains number of users to link to accounts" name="nbr_users_per_account" prompt="nbr_users_per_account?" promptNeeded="false" type="id_Integer" value="2"/>
+    <contextParameter xmi:id="_17UThPn9Eeezr8nhzDJLZg" comment="contains the local offset from GMT" name="timezone_offset" prompt="timezone_offset?" promptNeeded="false" type="id_String" value="-08:00"/>
+    <contextParameter xmi:id="_17UThfn9Eeezr8nhzDJLZg" comment="contains a full path and file name" name="dumpfile_name" prompt="dumpfile_name?" promptNeeded="false" type="id_String" value="c:/temp/dvFILES/file.dmp"/>
+    <contextParameter xmi:id="_17UThvn9Eeezr8nhzDJLZg" comment="contains a string version of a date" name="strDate" prompt="strDate?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_17UTh_n9Eeezr8nhzDJLZg" comment="contains a date version of a date" name="dtDate" prompt="dtDate?" promptNeeded="false" type="id_Date" value=""/>
+    <contextParameter xmi:id="_17UTiPn9Eeezr8nhzDJLZg" comment="contains current etl_control ID" name="control_id" prompt="control_id?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_17UTifn9Eeezr8nhzDJLZg" comment="contains a log file path only" name="logfile_path" prompt="logfile_path?" promptNeeded="false" type="id_String" value="c:/temp/dvLOGS/"/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_M9Fk4N8uEeeS9sA3OOyRqw" name="Organization" dataPackage="_M9Fk9d8uEeeS9sA3OOyRqw" JSONFilePath="D:/Users/rshaik4/Desktop/SampleFiles/iDeal/Organization.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_M9Fk4d8uEeeS9sA3OOyRqw" LimitBoucle="50" AbsoluteXPathQuery="$.Organization.Organization">
+      <schemaTargets xmi:id="_M9Fk4t8uEeeS9sA3OOyRqw" RelativeXPathQuery="Organization_Name" TagName="Organization_Name"/>
+      <schemaTargets xmi:id="_M9Fk498uEeeS9sA3OOyRqw" RelativeXPathQuery="Synonyms" TagName="Synonyms"/>
+      <schemaTargets xmi:id="_M9Fk5N8uEeeS9sA3OOyRqw" RelativeXPathQuery="Parent_Organization(s)" TagName="Parent_Organization_s_"/>
+      <schemaTargets xmi:id="_M9Fk5d8uEeeS9sA3OOyRqw" RelativeXPathQuery="Organization_Status" TagName="Organization_Status"/>
+      <schemaTargets xmi:id="_M9Fk5t8uEeeS9sA3OOyRqw" RelativeXPathQuery="Category" TagName="Category"/>
+      <schemaTargets xmi:id="_M9Fk598uEeeS9sA3OOyRqw" RelativeXPathQuery="Comments" TagName="Comments"/>
+      <schemaTargets xmi:id="_M9Fk6N8uEeeS9sA3OOyRqw" RelativeXPathQuery="Created_By" TagName="Created_By"/>
+      <schemaTargets xmi:id="_M9Fk6d8uEeeS9sA3OOyRqw" RelativeXPathQuery="Last_Modified_By" TagName="Last_Modified_By"/>
+      <schemaTargets xmi:id="_M9Fk6t8uEeeS9sA3OOyRqw" RelativeXPathQuery="Address_Line_1" TagName="Address_Line_1"/>
+      <schemaTargets xmi:id="_M9Fk698uEeeS9sA3OOyRqw" RelativeXPathQuery="Main_Phone" TagName="Main_Phone"/>
+      <schemaTargets xmi:id="_M9Fk7N8uEeeS9sA3OOyRqw" RelativeXPathQuery="Address_Line_2" TagName="Address_Line_2"/>
+      <schemaTargets xmi:id="_M9Fk7d8uEeeS9sA3OOyRqw" RelativeXPathQuery="Main_Fax" TagName="Main_Fax"/>
+      <schemaTargets xmi:id="_M9Fk7t8uEeeS9sA3OOyRqw" RelativeXPathQuery="Address_Line_3" TagName="Address_Line_3"/>
+      <schemaTargets xmi:id="_M9Fk798uEeeS9sA3OOyRqw" RelativeXPathQuery="URL" TagName="URL"/>
+      <schemaTargets xmi:id="_M9Fk8N8uEeeS9sA3OOyRqw" RelativeXPathQuery="City" TagName="City"/>
+      <schemaTargets xmi:id="_M9Fk8d8uEeeS9sA3OOyRqw" RelativeXPathQuery="Email" TagName="Email"/>
+      <schemaTargets xmi:id="_M9Fk8t8uEeeS9sA3OOyRqw" RelativeXPathQuery="Currency" TagName="Currency"/>
+      <schemaTargets xmi:id="_M9Fk898uEeeS9sA3OOyRqw" RelativeXPathQuery="Zip" TagName="Zip"/>
+      <schemaTargets xmi:id="_M9Fk9N8uEeeS9sA3OOyRqw" RelativeXPathQuery="Country/State" TagName="Country_State"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_M9Fk9d8uEeeS9sA3OOyRqw" name="default" dataManager="_M9Fk4N8uEeeS9sA3OOyRqw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_M9Fk9t8uEeeS9sA3OOyRqw" id="__AaOoN8tEeeS9sA3OOyRqw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9Fk998uEeeS9sA3OOyRqw" label="Organization_Name" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9Fk-N8uEeeS9sA3OOyRqw" label="Synonyms" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9Fk-d8uEeeS9sA3OOyRqw" label="Parent_Organization_s_" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9Fk-t8uEeeS9sA3OOyRqw" label="Organization_Status" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9Fk-98uEeeS9sA3OOyRqw" label="Category" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9Fk_N8uEeeS9sA3OOyRqw" label="Comments" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9Fk_d8uEeeS9sA3OOyRqw" label="Created_By" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9Fk_t8uEeeS9sA3OOyRqw" label="Last_Modified_By" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9Fk_98uEeeS9sA3OOyRqw" label="Address_Line_1" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9FlAN8uEeeS9sA3OOyRqw" label="Main_Phone" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9FlAd8uEeeS9sA3OOyRqw" label="Address_Line_2" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9FlAt8uEeeS9sA3OOyRqw" label="Main_Fax" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9FlA98uEeeS9sA3OOyRqw" label="Address_Line_3" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9FlBN8uEeeS9sA3OOyRqw" label="URL" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9FlBd8uEeeS9sA3OOyRqw" label="City" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9FlBt8uEeeS9sA3OOyRqw" label="Email" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9FlB98uEeeS9sA3OOyRqw" label="Currency" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9FlCN8uEeeS9sA3OOyRqw" label="Zip" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9FlCd8uEeeS9sA3OOyRqw" label="Country_State" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

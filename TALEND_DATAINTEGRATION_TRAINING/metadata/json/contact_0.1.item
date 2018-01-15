@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_pGCIYd81EeeS9sA3OOyRqw" name="contact" dataPackage="_pGCIgd81EeeS9sA3OOyRqw" JSONFilePath="D:/Users/rshaik4/Desktop/SampleFiles/iDeal/Contact.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_pGCIYt81EeeS9sA3OOyRqw" LimitBoucle="50" AbsoluteXPathQuery="$.Contact.contact">
+      <schemaTargets xmi:id="_pGCIY981EeeS9sA3OOyRqw" RelativeXPathQuery="Type" TagName="Type"/>
+      <schemaTargets xmi:id="_pGCIZN81EeeS9sA3OOyRqw" RelativeXPathQuery="Email" TagName="Email"/>
+      <schemaTargets xmi:id="_pGCIZd81EeeS9sA3OOyRqw" RelativeXPathQuery="First_Name" TagName="First_Name"/>
+      <schemaTargets xmi:id="_pGCIZt81EeeS9sA3OOyRqw" RelativeXPathQuery="Middle_Name" TagName="Middle_Name"/>
+      <schemaTargets xmi:id="_pGCIZ981EeeS9sA3OOyRqw" RelativeXPathQuery="Last_Name" TagName="Last_Name"/>
+      <schemaTargets xmi:id="_pGCIaN81EeeS9sA3OOyRqw" RelativeXPathQuery="Direct_Phone" TagName="Direct_Phone"/>
+      <schemaTargets xmi:id="_pGCIad81EeeS9sA3OOyRqw" RelativeXPathQuery="Title" TagName="Title"/>
+      <schemaTargets xmi:id="_pGCIat81EeeS9sA3OOyRqw" RelativeXPathQuery="Salutations" TagName="Salutations"/>
+      <schemaTargets xmi:id="_pGCIa981EeeS9sA3OOyRqw" RelativeXPathQuery="Organization" TagName="Organization"/>
+      <schemaTargets xmi:id="_pGCIbN81EeeS9sA3OOyRqw" RelativeXPathQuery="Previous_Organizations" TagName="Previous_Organizations"/>
+      <schemaTargets xmi:id="_pGCIbd81EeeS9sA3OOyRqw" RelativeXPathQuery="Job_Title" TagName="Job_Title"/>
+      <schemaTargets xmi:id="_pGCIbt81EeeS9sA3OOyRqw" RelativeXPathQuery="Owner" TagName="Owner"/>
+      <schemaTargets xmi:id="_pGCIb981EeeS9sA3OOyRqw" RelativeXPathQuery="User_Type" TagName="User_Type"/>
+      <schemaTargets xmi:id="_pGCIcN81EeeS9sA3OOyRqw" RelativeXPathQuery="Comments" TagName="Comments"/>
+      <schemaTargets xmi:id="_pGCIcd81EeeS9sA3OOyRqw" RelativeXPathQuery="Created_By" TagName="Created_By"/>
+      <schemaTargets xmi:id="_pGCIct81EeeS9sA3OOyRqw" RelativeXPathQuery="Last_Modified_By" TagName="Last_Modified_By"/>
+      <schemaTargets xmi:id="_pGCIc981EeeS9sA3OOyRqw" RelativeXPathQuery="$.Contact.Extended.Address_Line_1" TagName="Address_Line_1"/>
+      <schemaTargets xmi:id="_pGCIdN81EeeS9sA3OOyRqw" RelativeXPathQuery="$.Contact.Extended.Email_2" TagName="Email_2"/>
+      <schemaTargets xmi:id="_pGCIdd81EeeS9sA3OOyRqw" RelativeXPathQuery="$.Contact.Extended.Address_Line_2" TagName="Address_Line_2"/>
+      <schemaTargets xmi:id="_pGCIdt81EeeS9sA3OOyRqw" RelativeXPathQuery="$.Contact.Extended.Phone_Extension" TagName="Phone_Extension"/>
+      <schemaTargets xmi:id="_pGCId981EeeS9sA3OOyRqw" RelativeXPathQuery="$.Contact.Extended.Address_Line_3" TagName="Address_Line_3"/>
+      <schemaTargets xmi:id="_pGCIeN81EeeS9sA3OOyRqw" RelativeXPathQuery="$.Contact.Extended.Mobile_Phone" TagName="Mobile_Phone"/>
+      <schemaTargets xmi:id="_pGCIed81EeeS9sA3OOyRqw" RelativeXPathQuery="$.Contact.Extended.City" TagName="City"/>
+      <schemaTargets xmi:id="_pGCIet81EeeS9sA3OOyRqw" RelativeXPathQuery="$.Contact.Extended.Home_Phone" TagName="Home_Phone"/>
+      <schemaTargets xmi:id="_pGCIe981EeeS9sA3OOyRqw" RelativeXPathQuery="$.Contact.Extended.Zip" TagName="Zip"/>
+      <schemaTargets xmi:id="_pGCIfN81EeeS9sA3OOyRqw" RelativeXPathQuery="$.Contact.Extended.Direct_Fax" TagName="Direct_Fax"/>
+      <schemaTargets xmi:id="_pGCIfd81EeeS9sA3OOyRqw" RelativeXPathQuery="$.Contact.Extended.Country/State" TagName="Country_State"/>
+      <schemaTargets xmi:id="_pGCIft81EeeS9sA3OOyRqw" RelativeXPathQuery="$.Contact.Extended.Assistant’s_Email" TagName="Assistant_s_Email"/>
+      <schemaTargets xmi:id="_pGCIf981EeeS9sA3OOyRqw" RelativeXPathQuery="$.Contact.Extended.Address_Type" TagName="Address_Type"/>
+      <schemaTargets xmi:id="_pGCIgN81EeeS9sA3OOyRqw" RelativeXPathQuery="$.Contact.Extended.Assistant’s_Phone" TagName="Assistant_s_Phone"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_pGCIgd81EeeS9sA3OOyRqw" name="default" dataManager="_pGCIYd81EeeS9sA3OOyRqw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_pGCIgt81EeeS9sA3OOyRqw" id="_WSS8kN81EeeS9sA3OOyRqw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIg981EeeS9sA3OOyRqw" label="Type" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIhN81EeeS9sA3OOyRqw" label="Email" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIhd81EeeS9sA3OOyRqw" label="First_Name" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIht81EeeS9sA3OOyRqw" label="Middle_Name" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIh981EeeS9sA3OOyRqw" label="Last_Name" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIiN81EeeS9sA3OOyRqw" label="Direct_Phone" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIid81EeeS9sA3OOyRqw" label="Title" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIit81EeeS9sA3OOyRqw" label="Salutations" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIi981EeeS9sA3OOyRqw" label="Organization" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIjN81EeeS9sA3OOyRqw" label="Previous_Organizations" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIjd81EeeS9sA3OOyRqw" label="Job_Title" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIjt81EeeS9sA3OOyRqw" label="Owner" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIj981EeeS9sA3OOyRqw" label="User_Type" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIkN81EeeS9sA3OOyRqw" label="Comments" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIkd81EeeS9sA3OOyRqw" label="Created_By" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIkt81EeeS9sA3OOyRqw" label="Last_Modified_By" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIk981EeeS9sA3OOyRqw" label="Address_Line_1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIlN81EeeS9sA3OOyRqw" label="Email_2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIld81EeeS9sA3OOyRqw" label="Address_Line_2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIlt81EeeS9sA3OOyRqw" label="Phone_Extension" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIl981EeeS9sA3OOyRqw" label="Address_Line_3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCImN81EeeS9sA3OOyRqw" label="Mobile_Phone" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCImd81EeeS9sA3OOyRqw" label="City" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCImt81EeeS9sA3OOyRqw" label="Home_Phone" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCIm981EeeS9sA3OOyRqw" label="Zip" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCInN81EeeS9sA3OOyRqw" label="Direct_Fax" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCvcN81EeeS9sA3OOyRqw" label="Country_State" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCvcd81EeeS9sA3OOyRqw" label="Assistant_s_Email" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCvct81EeeS9sA3OOyRqw" label="Address_Type" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGCvc981EeeS9sA3OOyRqw" label="Assistant_s_Phone" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

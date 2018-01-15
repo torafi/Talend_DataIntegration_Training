@@ -1,0 +1,21 @@
+package routines;
+
+import java.security.*;
+import java.math.*;
+
+public class MD5 {
+
+	
+    public static String hash(String message) {
+    	MessageDigest m;
+		try {
+			m = MessageDigest.getInstance("MD5");
+	    	m.reset();
+	    	m.update(message.getBytes(),0,message.length());
+	    	return new BigInteger(1,m.digest()).toString(16);
+		} catch (NoSuchAlgorithmException e) {
+			e.printStackTrace();
+			throw new RuntimeException("Error creating md5 hash", e);
+		} 
+    }
+}

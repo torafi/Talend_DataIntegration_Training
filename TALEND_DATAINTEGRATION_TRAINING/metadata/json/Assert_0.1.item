@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_AbRm8N8qEeeS9sA3OOyRqw" name="Assert" dataPackage="_AbRnAN8qEeeS9sA3OOyRqw" JSONFilePath="D:/Users/rshaik4/Desktop/SampleFiles/iDeal/Asset.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_AbRm8d8qEeeS9sA3OOyRqw" LimitBoucle="50" AbsoluteXPathQuery="$.Assets">
+      <schemaTargets xmi:id="_AbRm8t8qEeeS9sA3OOyRqw" RelativeXPathQuery="Asset.Asset_Name" TagName="Asset_Name"/>
+      <schemaTargets xmi:id="_AbRm898qEeeS9sA3OOyRqw" RelativeXPathQuery="Asset.Access" TagName="Access"/>
+      <schemaTargets xmi:id="_AbRm9N8qEeeS9sA3OOyRqw" RelativeXPathQuery="Asset.Synonyms" TagName="Synonyms"/>
+      <schemaTargets xmi:id="_AbRm9d8qEeeS9sA3OOyRqw" RelativeXPathQuery="Owner.Organization" TagName="Organization"/>
+      <schemaTargets xmi:id="_AbRm9t8qEeeS9sA3OOyRqw" RelativeXPathQuery="Division.Created_By" TagName="Created_By"/>
+      <schemaTargets xmi:id="_AbRm998qEeeS9sA3OOyRqw" RelativeXPathQuery="Division.Last_Modified_By" TagName="Last_Modified_By"/>
+      <schemaTargets xmi:id="_AbRm-N8qEeeS9sA3OOyRqw" RelativeXPathQuery="Further_Asset_Details.Development_Phase" TagName="Development_Phase"/>
+      <schemaTargets xmi:id="_AbRm-d8qEeeS9sA3OOyRqw" RelativeXPathQuery="Further_Asset_Details.Classification" TagName="Classification"/>
+      <schemaTargets xmi:id="_AbRm-t8qEeeS9sA3OOyRqw" RelativeXPathQuery="Further_Asset_Details.GDD_Area" TagName="GDD_Area"/>
+      <schemaTargets xmi:id="_AbRm-98qEeeS9sA3OOyRqw" RelativeXPathQuery="Further_Asset_Details.Therapeutic_Area" TagName="Therapeutic_Area"/>
+      <schemaTargets xmi:id="_AbRm_N8qEeeS9sA3OOyRqw" RelativeXPathQuery="Further_Asset_Details.Technologies" TagName="Technologies"/>
+      <schemaTargets xmi:id="_AbRm_d8qEeeS9sA3OOyRqw" RelativeXPathQuery="Further_Asset_Details.Clinical_Indication" TagName="Clinical_Indication"/>
+      <schemaTargets xmi:id="_AbRm_t8qEeeS9sA3OOyRqw" RelativeXPathQuery="Further_Asset_Details.Mechanism_of_Action" TagName="Mechanism_of_Action"/>
+      <schemaTargets xmi:id="_AbRm_98qEeeS9sA3OOyRqw" RelativeXPathQuery="Further_Asset_Details.Scientific_Summary" TagName="Scientific_Summary"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_AbRnAN8qEeeS9sA3OOyRqw" name="default" dataManager="_AbRm8N8qEeeS9sA3OOyRqw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_AbRnAd8qEeeS9sA3OOyRqw" id="_fO9MAN8pEeeS9sA3OOyRqw" label="Assert">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AbRnAt8qEeeS9sA3OOyRqw" label="Asset_Name" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AbRnA98qEeeS9sA3OOyRqw" label="Access" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AbRnBN8qEeeS9sA3OOyRqw" label="Synonyms" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AbRnBd8qEeeS9sA3OOyRqw" label="Organization" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AbRnBt8qEeeS9sA3OOyRqw" label="Created_By" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AbRnB98qEeeS9sA3OOyRqw" label="Last_Modified_By" length="24" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AbRnCN8qEeeS9sA3OOyRqw" label="Development_Phase" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AbRnCd8qEeeS9sA3OOyRqw" label="Classification" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AbRnCt8qEeeS9sA3OOyRqw" label="GDD_Area" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AbRnC98qEeeS9sA3OOyRqw" label="Therapeutic_Area" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AbRnDN8qEeeS9sA3OOyRqw" label="Technologies" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AbRnDd8qEeeS9sA3OOyRqw" label="Clinical_Indication" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AbRnDt8qEeeS9sA3OOyRqw" label="Mechanism_of_Action" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AbRnD98qEeeS9sA3OOyRqw" label="Scientific_Summary" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_LKyl0O1EEea-QYd775uhyw" name="csv2XML" dataPackage="_LKyl0e1EEea-QYd775uhyw" Server="Localhost 127.0.0.1" FilePath="D:/Talend/Talend_Documents/Talend_Ebooks/Getting.Started.with.Talend.Open.Studio.for.Data.Integration/SampleDataFiles/Chapter3/csv2xml-catalogue.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" HeaderValue="0" EscapeType="CSV" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_LKyl0e1EEea-QYd775uhyw" name="default" dataManager="_LKyl0O1EEea-QYd775uhyw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LKyl0u1EEea-QYd775uhyw" id="_jwVNoO1DEea-QYd775uhyw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LKyl0-1EEea-QYd775uhyw" label="skuid" length="10" talendType="id_Long" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LKyl1O1EEea-QYd775uhyw" label="skuname" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LKyl1e1EEea-QYd775uhyw" label="size" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LKyl1u1EEea-QYd775uhyw" label="color" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LKyl1-1EEea-QYd775uhyw" label="prize" length="5" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_jyH3cDqIEea49McxW96H8w" comment="connectionComment" label="connectionLabel" dataPackage="_jyH3cTqIEea49McxW96H8w" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_jyH3cTqIEea49McxW96H8w" dataManager="_jyH3cDqIEea49McxW96H8w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_jyH3cjqIEea49McxW96H8w" label="md_AccountData">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyH3czqIEea49McxW96H8w" name="hk_hub_account" id="922614" label="hk_hub_account" length="32" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_jyH3dDqIEea49McxW96H8w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyH3dTqIEea49McxW96H8w" name="bk_account_id" id="922615" label="bk_account_id" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_jyH3djqIEea49McxW96H8w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyH3dzqIEea49McxW96H8w" name="bk_company_name" id="922616" label="bk_company_name" length="48" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_jyH3eDqIEea49McxW96H8w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyH3eTqIEea49McxW96H8w" name="account_created_on" id="922617" label="account_created_on" length="19" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;">
+        <initialValue xmi:id="_jyH3ejqIEea49McxW96H8w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_irqi8EPOEeaACOn8p_cSKQ" name="account_modified_on" label="account_modified_on" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;">
+        <initialValue xmi:id="_irqi8UPOEeaACOn8p_cSKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyH3ezqIEea49McxW96H8w" name="rec_load_date" id="922618" label="rec_load_date" length="19" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;">
+        <initialValue xmi:id="_jyH3fDqIEea49McxW96H8w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyH3fTqIEea49McxW96H8w" name="rec_source" id="922619" label="rec_source" length="45" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_jyH3fjqIEea49McxW96H8w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Sv4B8DqJEea49McxW96H8w" name="rec_load_end_date" label="rec_load_end_date" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyH3iTqIEea49McxW96H8w" name="status_code" id="922625" label="status_code" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_jyH3ijqIEea49McxW96H8w" body="1"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyH3izqIEea49McxW96H8w" name="is_authorized_flg" id="922626" label="is_authorized_flg" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_jyH3jDqIEea49McxW96H8w" body="0"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyH3jTqIEea49McxW96H8w" name="is_locked_flg" id="922627" label="is_locked_flg" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_jyH3jjqIEea49McxW96H8w" body="0"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyH3fzqIEea49McxW96H8w" name="address_ln1" id="922620" label="address_ln1" length="64" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_jyH3gDqIEea49McxW96H8w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyH3gTqIEea49McxW96H8w" name="address_ln2" id="922621" label="address_ln2" length="64" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_jyH3gjqIEea49McxW96H8w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyH3gzqIEea49McxW96H8w" name="city" id="922622" label="city" length="36" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_jyH3hDqIEea49McxW96H8w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyH3hTqIEea49McxW96H8w" name="state" id="922623" label="state" length="2" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_jyH3hjqIEea49McxW96H8w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyH3hzqIEea49McxW96H8w" name="zipcode" id="922624" label="zipcode" length="12" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_jyH3iDqIEea49McxW96H8w"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

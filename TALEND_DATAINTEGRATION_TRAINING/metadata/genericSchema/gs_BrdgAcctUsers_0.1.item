@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_CSwcsc1cEeaXapG759dsbw" name="repository.metadataGenericSchema" dataPackage="_CSwcss1cEeaXapG759dsbw" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
+  <TalendMetadata:GenericPackage xmi:id="_CSwcss1cEeaXapG759dsbw" name="repository.metadataGenericSchema" dataManager="_CSwcsc1cEeaXapG759dsbw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_CSwcs81cEeaXapG759dsbw" id="_97Q4AM1bEeaXapG759dsbw" label="md_brdg_acctusers">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CSwctM1cEeaXapG759dsbw" name="hk_lnk_acctusers" label="hk_lnk_acctusers" length="32" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_CSwctc1cEeaXapG759dsbw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CSwcts1cEeaXapG759dsbw" name="brdg_snapshot_date" label="brdg_snapshot_date" length="19" sourceType="DATETIME" talendType="id_Date" key="true" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;">
+        <initialValue xmi:id="_CSwct81cEeaXapG759dsbw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CSwcuM1cEeaXapG759dsbw" name="hk_hub_account" label="hk_hub_account" length="32" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_CSwcuc1cEeaXapG759dsbw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CSwcus1cEeaXapG759dsbw" name="hk_hub_user" label="hk_hub_user" length="32" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_CSwcu81cEeaXapG759dsbw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CSwcvM1cEeaXapG759dsbw" name="bk_account_id" label="bk_account_id" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_CSwcvc1cEeaXapG759dsbw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CSwcvs1cEeaXapG759dsbw" name="bk_user_id" label="bk_user_id" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_CSwcv81cEeaXapG759dsbw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HWeOMM1cEeaXapG759dsbw" name="rec_load_date" label="rec_load_date" length="-1" sourceType="DATETIME" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_2O1FQPn9Eeezr8nhzDJLZg" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_2O1FQfn9Eeezr8nhzDJLZg" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_2O1FQvn9Eeezr8nhzDJLZg">
+    <elementParameter xmi:id="_2O1FQ_n9Eeezr8nhzDJLZg" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_2O1FRPn9Eeezr8nhzDJLZg" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_2O1FRfn9Eeezr8nhzDJLZg" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_2O1FRvn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_2O1FR_n9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_2O1FSPn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_2O1FSfn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_2O1FSvn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_2O1FS_n9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_2O1FTPn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_2O1FTfn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_2O1FTvn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_2O1FT_n9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_2O1FUPn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_2O1FUfn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_2O1FUvn9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_2O1FU_n9Eeezr8nhzDJLZg" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <routinesParameter xmi:id="_2O1FVPn9Eeezr8nhzDJLZg" id="_r11x8N-qEeaVJtBYDWIxig" name="DataOperation"/>
+    <routinesParameter xmi:id="_2O1FVfn9Eeezr8nhzDJLZg" id="_r2ZLkN-qEeaVJtBYDWIxig" name="Mathematical"/>
+    <routinesParameter xmi:id="_2O1FVvn9Eeezr8nhzDJLZg" id="_r2ZLlN-qEeaVJtBYDWIxig" name="Numeric"/>
+    <routinesParameter xmi:id="_2O1FV_n9Eeezr8nhzDJLZg" id="_r2fSMN-qEeaVJtBYDWIxig" name="Relational"/>
+    <routinesParameter xmi:id="_2O1FWPn9Eeezr8nhzDJLZg" id="_r2lY0N-qEeaVJtBYDWIxig" name="StringHandling"/>
+    <routinesParameter xmi:id="_2O1FWfn9Eeezr8nhzDJLZg" id="_r2lY1N-qEeaVJtBYDWIxig" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_2O1FWvn9Eeezr8nhzDJLZg" id="_r2rfcN-qEeaVJtBYDWIxig" name="TalendDate"/>
+    <routinesParameter xmi:id="_2O1FW_n9Eeezr8nhzDJLZg" id="_r2rfdN-qEeaVJtBYDWIxig" name="TalendString"/>
+  </parameters>
+  <node xmi:id="_2O1FXPn9Eeezr8nhzDJLZg" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="32">
+    <elementParameter xmi:id="_2O1FXfn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+    <elementParameter xmi:id="_2O1FXvn9Eeezr8nhzDJLZg" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_2O1FX_n9Eeezr8nhzDJLZg" field="DIRECTORY" name="URI" value="&quot;D:/Users/rshaik4/Desktop/Bayer/ESB_Examples/mail&quot;"/>
+    <elementParameter xmi:id="_2O1FYPn9Eeezr8nhzDJLZg" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_2O1FYfn9Eeezr8nhzDJLZg" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_2O1FYvn9Eeezr8nhzDJLZg" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_2O1FY_n9Eeezr8nhzDJLZg" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_2O1FZPn9Eeezr8nhzDJLZg" field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_2O1FZfn9Eeezr8nhzDJLZg" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter xmi:id="_2O1FZvn9Eeezr8nhzDJLZg" field="TEXT" name="FILENAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_2O1FZ_n9Eeezr8nhzDJLZg" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_2O1FaPn9Eeezr8nhzDJLZg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_2O1Fafn9Eeezr8nhzDJLZg" componentName="cMail" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="32">
+    <elementParameter xmi:id="_2O1Favn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cMail_1" show="false"/>
+    <elementParameter xmi:id="_2O1Fa_n9Eeezr8nhzDJLZg" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_2O1FbPn9Eeezr8nhzDJLZg" field="CLOSED_LIST" name="PROTOCOLS" value="smtp"/>
+    <elementParameter xmi:id="_2O1Fbfn9Eeezr8nhzDJLZg" field="TEXT" name="HOST" value="&quot;smtp.gmail.com&quot;"/>
+    <elementParameter xmi:id="_2O1Fbvn9Eeezr8nhzDJLZg" field="TEXT" name="PORT" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_2O1Fb_n9Eeezr8nhzDJLZg" field="TEXT" name="USERNAME" value="&quot;torafi.sk@gmail.com&quot;"/>
+    <elementParameter xmi:id="_2O1FcPn9Eeezr8nhzDJLZg" field="PASSWORD" name="PASSWORD" value="n+Yc1l9IasYRVCXXmUuUQA=="/>
+    <elementParameter xmi:id="_2O1Fcfn9Eeezr8nhzDJLZg" field="TEXT" name="SUBJECT" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_2O1Fcvn9Eeezr8nhzDJLZg" field="TEXT" name="CONTENTTYPE" value="&quot;text/plain&quot;"/>
+    <elementParameter xmi:id="_2O1Fc_n9Eeezr8nhzDJLZg" field="TEXT" name="FROM" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_2O1FdPn9Eeezr8nhzDJLZg" field="TEXT" name="TO" value="&quot;torafi.sk@gmail.com&quot;"/>
+    <elementParameter xmi:id="_2O1Fdfn9Eeezr8nhzDJLZg" field="TEXT" name="CC" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_2O1Fdvn9Eeezr8nhzDJLZg" field="TEXT" name="BCC" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_2O1Fd_n9Eeezr8nhzDJLZg" field="TABLE" name="ARGUMENTS"/>
+    <elementParameter xmi:id="_2O1FePn9Eeezr8nhzDJLZg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_2O1Fefn9Eeezr8nhzDJLZg" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="32">
+    <elementParameter xmi:id="_2O1Fevn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_2O1Fe_n9Eeezr8nhzDJLZg" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_2O1FfPn9Eeezr8nhzDJLZg" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_2O1Fffn9Eeezr8nhzDJLZg" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;&#xA;System.out.println(&quot;Mail sent&quot;);"/>
+    <elementParameter xmi:id="_2O1Ffvn9Eeezr8nhzDJLZg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_2O1Ff_n9Eeezr8nhzDJLZg" componentName="cMail" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="96">
+    <elementParameter xmi:id="_2O1FgPn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cMail_2" show="false"/>
+    <elementParameter xmi:id="_2O1Fgfn9Eeezr8nhzDJLZg" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_2O1Fgvn9Eeezr8nhzDJLZg" field="CLOSED_LIST" name="PROTOCOLS" value="imap"/>
+    <elementParameter xmi:id="_2O1Fg_n9Eeezr8nhzDJLZg" field="TEXT" name="HOST" value="&quot;imap.gmail.com&quot;"/>
+    <elementParameter xmi:id="_2O1FhPn9Eeezr8nhzDJLZg" field="TEXT" name="PORT" value="&quot;993&quot;"/>
+    <elementParameter xmi:id="_2O1Fhfn9Eeezr8nhzDJLZg" field="TEXT" name="USERNAME" value="&quot;torafi.sk@gmail.com&quot;"/>
+    <elementParameter xmi:id="_2O1Fhvn9Eeezr8nhzDJLZg" field="PASSWORD" name="PASSWORD" value="n+Yc1l9IasYRVCXXmUuUQA=="/>
+    <elementParameter xmi:id="_2O1Fh_n9Eeezr8nhzDJLZg" field="TEXT" name="SUBJECT" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_2O1FiPn9Eeezr8nhzDJLZg" field="TEXT" name="CONTENTTYPE" value="&quot;text/plain&quot;"/>
+    <elementParameter xmi:id="_2O1Fifn9Eeezr8nhzDJLZg" field="TEXT" name="FROM" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_2O1Fivn9Eeezr8nhzDJLZg" field="TEXT" name="TO" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_2O1Fi_n9Eeezr8nhzDJLZg" field="TEXT" name="CC" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_2O1FjPn9Eeezr8nhzDJLZg" field="TEXT" name="BCC" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_2O1Fjfn9Eeezr8nhzDJLZg" field="TABLE" name="ARGUMENTS"/>
+    <elementParameter xmi:id="_2O1Fjvn9Eeezr8nhzDJLZg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_2O1Fj_n9Eeezr8nhzDJLZg" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="96">
+    <elementParameter xmi:id="_2O1FkPn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cProcessor_2" show="false"/>
+    <elementParameter xmi:id="_2O1Fkfn9Eeezr8nhzDJLZg" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_2O1Fkvn9Eeezr8nhzDJLZg" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_2O1Fk_n9Eeezr8nhzDJLZg" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;&#xA;System.out.println(exchange.getIn().getBody(String.class));"/>
+    <elementParameter xmi:id="_2O1FlPn9Eeezr8nhzDJLZg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection xmi:id="_2O1Flfn9Eeezr8nhzDJLZg" connectorName="ROUTE" label="route1" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cFile_1" target="cMail_1">
+    <elementParameter xmi:id="_2O1Flvn9Eeezr8nhzDJLZg" field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter xmi:id="_2O1Fl_n9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <connection xmi:id="_2O1FmPn9Eeezr8nhzDJLZg" connectorName="ROUTE" label="route2" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cMail_1" target="cProcessor_1">
+    <elementParameter xmi:id="_2O1Fmfn9Eeezr8nhzDJLZg" field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter xmi:id="_2O1Fmvn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
+  </connection>
+  <connection xmi:id="_2O1Fm_n9Eeezr8nhzDJLZg" connectorName="ROUTE" label="route3" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cMail_2" target="cProcessor_2">
+    <elementParameter xmi:id="_2O1FnPn9Eeezr8nhzDJLZg" field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter xmi:id="_2O1Fnfn9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="route3" show="false"/>
+  </connection>
+  <subjob xmi:id="_2O1Fnvn9Eeezr8nhzDJLZg">
+    <elementParameter xmi:id="_2O1Fn_n9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+    <elementParameter xmi:id="_2O1FoPn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_2O1Fofn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_2O1Fovn9Eeezr8nhzDJLZg">
+    <elementParameter xmi:id="_2O1Fo_n9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cMail_1" show="false"/>
+    <elementParameter xmi:id="_2O1FpPn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_2O1Fpfn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_2O1Fpvn9Eeezr8nhzDJLZg">
+    <elementParameter xmi:id="_2O1Fp_n9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_2O1FqPn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_2O1Fqfn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_2O1Fqvn9Eeezr8nhzDJLZg">
+    <elementParameter xmi:id="_2O1Fq_n9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cMail_2" show="false"/>
+    <elementParameter xmi:id="_2O1FrPn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_2O1Frfn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_2O1Frvn9Eeezr8nhzDJLZg">
+    <elementParameter xmi:id="_2O1Fr_n9Eeezr8nhzDJLZg" field="TEXT" name="UNIQUE_NAME" value="cProcessor_2" show="false"/>
+    <elementParameter xmi:id="_2O1FsPn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_2O1Fsfn9Eeezr8nhzDJLZg" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_ZlfuYLJhEee_SfNeCBPspw" dataPackage="_ZlfufrJhEee_SfNeCBPspw" DatabaseType="HBase" Port="2181" Username="rshaik4" ServerName="hdpnn.capgemini.com,hdpdatanode.capgemini.com,hdpdatanode1.capgemini.com" SID="HBase" DbmsId="mysql_id" ProductId="HBASE">
+    <parameters xmi:id="_ZlfuYbJhEee_SfNeCBPspw" key="CONN_PARA_KEY_DB_PORT" value="2181"/>
+    <parameters xmi:id="_ZlfuYrJhEee_SfNeCBPspw" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_ZlfuY7JhEee_SfNeCBPspw" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="hdpdatanode1.capgemini.com:8030"/>
+    <parameters xmi:id="_ZlfuZLJhEee_SfNeCBPspw" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+    <parameters xmi:id="_ZlfuZbJhEee_SfNeCBPspw" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://hdpnn.capgemini.com:8020"/>
+    <parameters xmi:id="_ZlfuZrJhEee_SfNeCBPspw" key="CONN_PARA_KEY_USERNAME" value="rshaik4"/>
+    <parameters xmi:id="_ZlfuZ7JhEee_SfNeCBPspw" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_7SSEALJfEee_SfNeCBPspw"/>
+    <parameters xmi:id="_ZlfuaLJhEee_SfNeCBPspw" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_ZlfuabJhEee_SfNeCBPspw" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_6"/>
+    <parameters xmi:id="_ZlfuarJhEee_SfNeCBPspw" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="hdpdatanode1.capgemini.com:8050"/>
+    <parameters xmi:id="_Zlfua7JhEee_SfNeCBPspw" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="hdpnn.capgemini.com:10020"/>
+    <parameters xmi:id="_ZlfubLJhEee_SfNeCBPspw" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_6"/>
+    <parameters xmi:id="_ZlfubbJhEee_SfNeCBPspw" key="CONN_PARA_KEY_HBASE_ZNODE_PARENT" value="/hbase-unsecure"/>
+    <parameters xmi:id="_ZlfubrJhEee_SfNeCBPspw" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_Zlfub7JhEee_SfNeCBPspw" key="CONN_PARA_KEY_DB_SERVER" value="hdpnn.capgemini.com,hdpdatanode.capgemini.com,hdpdatanode1.capgemini.com"/>
+    <parameters xmi:id="_ZlfucLJhEee_SfNeCBPspw" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
+    <parameters xmi:id="_ZlfucbJhEee_SfNeCBPspw" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_ZlfucrJhEee_SfNeCBPspw" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_Zlfuc7JhEee_SfNeCBPspw" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_ZlfudLJhEee_SfNeCBPspw" key="CONN_PARA_KEY_MAPRDB_VERSION" value="HDP_2_6"/>
+    <parameters xmi:id="_ZlfudbJhEee_SfNeCBPspw" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_ZlfudrJhEee_SfNeCBPspw" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+    <parameters xmi:id="_Zlfud7JhEee_SfNeCBPspw" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_ZlfueLJhEee_SfNeCBPspw" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+    <parameters xmi:id="_ZlfuebJhEee_SfNeCBPspw" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="nn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_ZlfuerJhEee_SfNeCBPspw" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
+    <parameters xmi:id="_Zlfue7JhEee_SfNeCBPspw" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_ZlfufLJhEee_SfNeCBPspw" key="CONN_PARA_KEY_HBASE_SET_ZNODE_PARENT" value="true"/>
+    <parameters xmi:id="_ZlfufbJhEee_SfNeCBPspw" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ZlfufrJhEee_SfNeCBPspw" name="HBase" dataManager="_ZlfuYLJhEee_SfNeCBPspw"/>
+</xmi:XMI>

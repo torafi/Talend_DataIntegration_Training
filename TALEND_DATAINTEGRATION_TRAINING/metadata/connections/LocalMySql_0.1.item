@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_ypbAAKnIEee4SMDizi20-w" name="LocalMySql" id="_o446EKnIEee4SMDizi20-w" label="LocalMySql" dataPackage="_yqzgEKnIEee4SMDizi20-w" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/localdb?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="gnrl1GVq2l7onov0KwZqcg==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="localdb" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_ypdcQKnIEee4SMDizi20-w" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_yqCrEKnIEee4SMDizi20-w" tag="package filter" value=""/>
+    <taggedValue xmi:id="_yqKm4KnIEee4SMDizi20-w" tag="Status" value=""/>
+    <taggedValue xmi:id="_yqKm4anIEee4SMDizi20-w" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_yqKm4qnIEee4SMDizi20-w" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_yqKm46nIEee4SMDizi20-w" tag="Description" value=""/>
+    <taggedValue xmi:id="_yqKm5KnIEee4SMDizi20-w" tag="Author" value=""/>
+    <taggedValue xmi:id="_yqKm5anIEee4SMDizi20-w" tag="otherParameter"/>
+    <taggedValue xmi:id="_yqf-EKnIEee4SMDizi20-w" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_yqf-EanIEee4SMDizi20-w" tag="DB ProductVersion" value="5.7.19-log"/>
+    <taggedValue xmi:id="_yqf-EqnIEee4SMDizi20-w" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_ypdcQanIEee4SMDizi20-w" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_yqzgEKnIEee4SMDizi20-w" name="localdb" dataManager="_ypbAAKnIEee4SMDizi20-w"/>
+</xmi:XMI>
